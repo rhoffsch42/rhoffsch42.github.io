@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js navy">
+<html lang="en" class="sidebar-visible no-js rust">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
@@ -30,7 +30,7 @@
         <!-- Provide site root to javascript -->
         <script type="text/javascript">
             var path_to_root = "";
-            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "navy";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "rust";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
@@ -56,7 +56,7 @@
             if (theme === null || theme === undefined) { theme = default_theme; }
             var html = document.querySelector('html');
             html.classList.remove('no-js')
-            html.classList.remove('navy')
+            html.classList.remove('rust')
             html.classList.add(theme);
             html.classList.add('js');
         </script>
@@ -75,7 +75,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><li class="part-title">Summary</li><li class="chapter-item expanded "><a href="side_projects.html"><strong aria-hidden="true">1.</strong> Side projects</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="side_projects.html"><strong aria-hidden="true">1.1.</strong> Voxel engine</a></li><li class="chapter-item expanded "><a href="side_projects.html"><strong aria-hidden="true">1.2.</strong> AmongUs Detector</a></li></ol></li><li class="chapter-item expanded "><a href="video_game_tools.html"><strong aria-hidden="true">2.</strong> Video game tools</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="video_game_tools.html"><strong aria-hidden="true">2.1.</strong> EVE Online Intel Map</a></li><li class="chapter-item expanded "><a href="video_game_tools.html"><strong aria-hidden="true">2.2.</strong> Dual Universe in-game scripts</a></li><li class="chapter-item expanded "><a href="video_game_tools.html"><strong aria-hidden="true">2.3.</strong> Sanctuary community tool</a></li></ol></li><li class="chapter-item expanded "><a href="school_projects.html" class="active"><strong aria-hidden="true">3.</strong> Some school projects</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="school_projects.html" class="active"><strong aria-hidden="true">3.1.</strong> 3D graphical engine</a></li><li class="chapter-item expanded "><a href="school_projects.html" class="active"><strong aria-hidden="true">3.2.</strong> HumanGL</a></li><li class="chapter-item expanded "><a href="school_projects.html" class="active"><strong aria-hidden="true">3.3.</strong> Raytracing</a></li><li class="chapter-item expanded "><a href="school_projects.html" class="active"><strong aria-hidden="true">3.4.</strong> Corewar</a></li><li class="chapter-item expanded "><a href="school_projects.html" class="active"><strong aria-hidden="true">3.5.</strong> Wold3D game</a></li><li class="chapter-item expanded "><a href="school_projects.html" class="active"><strong aria-hidden="true">3.6.</strong> Fractals</a></li><li class="chapter-item expanded "><a href="school_projects.html" class="active"><strong aria-hidden="true">3.7.</strong> Wireframe</a></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="welcome.html"><strong aria-hidden="true">1.</strong> Welcome</a></li><li class="chapter-item expanded affix "><li class="part-title"></li><li class="spacer"></li><li class="chapter-item expanded "><a href="side_projects.html"><strong aria-hidden="true">2.</strong> Side projects</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="side_projects.html"><strong aria-hidden="true">2.1.</strong> Voxel engine</a></li><li class="chapter-item expanded "><a href="side_projects.html"><strong aria-hidden="true">2.2.</strong> AmongUs Detector</a></li></ol></li><li class="chapter-item expanded "><li class="part-title"></li><li class="spacer"></li><li class="chapter-item expanded "><a href="video_game_tools.html"><strong aria-hidden="true">3.</strong> Video game tools</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="video_game_tools.html"><strong aria-hidden="true">3.1.</strong> EVE Online Intel Map</a></li><li class="chapter-item expanded "><a href="video_game_tools.html"><strong aria-hidden="true">3.2.</strong> Dual Universe in-game scripts</a></li><li class="chapter-item expanded "><a href="video_game_tools.html"><strong aria-hidden="true">3.3.</strong> Sanctuary community tool</a></li></ol></li><li class="chapter-item expanded "><li class="part-title"></li><li class="spacer"></li><li class="chapter-item expanded "><a href="school_projects.html" class="active"><strong aria-hidden="true">4.</strong> Some school projects</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="school_projects.html" class="active"><strong aria-hidden="true">4.1.</strong> 3D graphical engine</a></li><li class="chapter-item expanded "><a href="school_projects.html" class="active"><strong aria-hidden="true">4.2.</strong> HumanGL</a></li><li class="chapter-item expanded "><a href="school_projects.html" class="active"><strong aria-hidden="true">4.3.</strong> Raytracing</a></li><li class="chapter-item expanded "><a href="school_projects.html" class="active"><strong aria-hidden="true">4.4.</strong> Corewar</a></li><li class="chapter-item expanded "><a href="school_projects.html" class="active"><strong aria-hidden="true">4.5.</strong> Wold3D game</a></li><li class="chapter-item expanded "><a href="school_projects.html" class="active"><strong aria-hidden="true">4.6.</strong> Fractals</a></li><li class="chapter-item expanded "><a href="school_projects.html" class="active"><strong aria-hidden="true">4.7.</strong> Wireframe</a></li></ol></li><li class="chapter-item expanded "><li class="part-title"></li><li class="spacer"></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -94,9 +94,9 @@
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
                             <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
                         </ul>
                         <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
@@ -142,36 +142,36 @@ School projects
 </p>
 <h3 id="youtube-playlist-"><a class="header" href="#youtube-playlist-"><a href="https://www.youtube.com/watch?v=Oz_VMhNBpak&amp;list=PL_zYbCWaNF7GNl4vMvyzbuaPQw9lTh8wY">Youtube playlist ⇗</a></a></h3>
 <br>
-<h1 id="3d-graphical-engine---repo-"><a class="header" href="#3d-graphical-engine---repo-"><img src="../assets/cpp/cpp_32x32.png" alt="cpp" /> 3D graphical engine - <a href="https://github.com/rhoffsch42/scop">repo ⇗</a></a></h1>
+<h1 id="3d-graphical-engine---repo-"><a class="header" href="#3d-graphical-engine---repo-"><img src="./assets/cpp/cpp_32x32.png" alt="cpp" /> 3D graphical engine - <a href="https://github.com/rhoffsch42/scop">repo ⇗</a></a></h1>
 <p>A simple engine to render 3D models.</p>
 <img src="https://i.imgur.com/N7qYk4P.png" alt="drawing" height="250" width="350"/>
 <br>
 <br>
-<h1 id="humangl---repo-"><a class="header" href="#humangl---repo-"><img src="../assets/cpp/cpp_32x32.png" alt="cpp" /> HumanGL - <a href="https://github.com/rhoffsch42/HumanGL">repo ⇗</a></a></h1>
+<h1 id="humangl---repo-"><a class="header" href="#humangl---repo-"><img src="./assets/cpp/cpp_32x32.png" alt="cpp" /> HumanGL - <a href="https://github.com/rhoffsch42/HumanGL">repo ⇗</a></a></h1>
 <p>The aim of this project was to use a hierarchy of matrices to make animations.
 <br>
 <br></p>
-<h1 id="raytracing---repo-"><a class="header" href="#raytracing---repo-"><img src="../assets/c/c_32x32.png" alt="c" /> Raytracing - <a href="https://github.com/rhoffsch42/rtv1">repo ⇗</a></a></h1>
+<h1 id="raytracing---repo-"><a class="header" href="#raytracing---repo-"><img src="./assets/c/c_32x32.png" alt="c" /> Raytracing - <a href="https://github.com/rhoffsch42/rtv1">repo ⇗</a></a></h1>
 <p>Group project : a 3D engine using raytracing.</p>
 <img src="https://i.imgur.com/fmObdZP.png" alt="drawing" width="650"/>
 <br>
 <br>
-<h1 id="corewar---repo-"><a class="header" href="#corewar---repo-"><img src="../assets/c/c_32x32.png" alt="c" /> Corewar - <a href="https://github.com/rhoffsch42/Corewar">repo ⇗</a></a></h1>
+<h1 id="corewar---repo-"><a class="header" href="#corewar---repo-"><img src="./assets/c/c_32x32.png" alt="c" /> Corewar - <a href="https://github.com/rhoffsch42/Corewar">repo ⇗</a></a></h1>
 <p>Group project : in this game, computer programs (called &quot;Champions&quot;) compete in a virtual arena for memory supremacy. Champions are written in an Assembly dialect called &quot;Redcode&quot;.</p>
 <img src="https://i.imgur.com/eFNeB86.png" alt="drawing" width="650"/>
 <br>
 <br>
-<h1 id="wolf3d-game---repo-"><a class="header" href="#wolf3d-game---repo-"><img src="../assets/c/c_32x32.png" alt="c" /> Wolf3D game - <a href="https://github.com/rhoffsch42/Wolf3D">repo ⇗</a></a></h1>
+<h1 id="wolf3d-game---repo-"><a class="header" href="#wolf3d-game---repo-"><img src="./assets/c/c_32x32.png" alt="c" /> Wolf3D game - <a href="https://github.com/rhoffsch42/Wolf3D">repo ⇗</a></a></h1>
 <p>A game like Wolfeinstein3D or Doom, using raycasting.</p>
 <img src="https://i.imgur.com/dFlhCq4.png" alt="drawing" height="250" width="350"/>
 <br>
 <br>
-<h1 id="fractals---repo-"><a class="header" href="#fractals---repo-"><img src="../assets/c/c_32x32.png" alt="c" /> Fractals - <a href="https://github.com/rhoffsch42/fractals">repo ⇗</a></a></h1>
+<h1 id="fractals---repo-"><a class="header" href="#fractals---repo-"><img src="./assets/c/c_32x32.png" alt="c" /> Fractals - <a href="https://github.com/rhoffsch42/fractals">repo ⇗</a></a></h1>
 <p>The famous Mandelbrot set, Julia set, and other fractals.</p>
 <img src="https://i.imgur.com/A8ubaGK.png" alt="drawing" width="650"/>
 <br>
 <br>
-<h1 id="wireframe---repo-"><a class="header" href="#wireframe---repo-"><img src="../assets/c/c_32x32.png" alt="c" /> Wireframe - <a href="https://github.com/rhoffsch42/fdf">repo ⇗</a></a></h1>
+<h1 id="wireframe---repo-"><a class="header" href="#wireframe---repo-"><img src="./assets/c/c_32x32.png" alt="c" /> Wireframe - <a href="https://github.com/rhoffsch42/fdf">repo ⇗</a></a></h1>
 <p>Isometric wireframe visualization of a relief. A basic project to introduce the use of a graphic library.</p>
 <img src="https://i.imgur.com/OQ2hABF.png" alt="drawing" width="650"/>
 <br>
@@ -203,6 +203,22 @@ School projects
 
         </div>
 
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
         <script type="text/javascript">
             window.playground_copyable = true;
         </script>

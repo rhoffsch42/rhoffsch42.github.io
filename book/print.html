@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js navy">
+<html lang="en" class="sidebar-visible no-js rust">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
@@ -31,7 +31,7 @@
         <!-- Provide site root to javascript -->
         <script type="text/javascript">
             var path_to_root = "";
-            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "navy";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "rust";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
@@ -57,7 +57,7 @@
             if (theme === null || theme === undefined) { theme = default_theme; }
             var html = document.querySelector('html');
             html.classList.remove('no-js')
-            html.classList.remove('navy')
+            html.classList.remove('rust')
             html.classList.add(theme);
             html.classList.add('js');
         </script>
@@ -76,7 +76,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><li class="part-title">Summary</li><li class="chapter-item expanded "><a href="side_projects.html"><strong aria-hidden="true">1.</strong> Side projects</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="side_projects.html"><strong aria-hidden="true">1.1.</strong> Voxel engine</a></li><li class="chapter-item expanded "><a href="side_projects.html"><strong aria-hidden="true">1.2.</strong> AmongUs Detector</a></li></ol></li><li class="chapter-item expanded "><a href="video_game_tools.html"><strong aria-hidden="true">2.</strong> Video game tools</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="video_game_tools.html"><strong aria-hidden="true">2.1.</strong> EVE Online Intel Map</a></li><li class="chapter-item expanded "><a href="video_game_tools.html"><strong aria-hidden="true">2.2.</strong> Dual Universe in-game scripts</a></li><li class="chapter-item expanded "><a href="video_game_tools.html"><strong aria-hidden="true">2.3.</strong> Sanctuary community tool</a></li></ol></li><li class="chapter-item expanded "><a href="school_projects.html"><strong aria-hidden="true">3.</strong> Some school projects</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="school_projects.html"><strong aria-hidden="true">3.1.</strong> 3D graphical engine</a></li><li class="chapter-item expanded "><a href="school_projects.html"><strong aria-hidden="true">3.2.</strong> HumanGL</a></li><li class="chapter-item expanded "><a href="school_projects.html"><strong aria-hidden="true">3.3.</strong> Raytracing</a></li><li class="chapter-item expanded "><a href="school_projects.html"><strong aria-hidden="true">3.4.</strong> Corewar</a></li><li class="chapter-item expanded "><a href="school_projects.html"><strong aria-hidden="true">3.5.</strong> Wold3D game</a></li><li class="chapter-item expanded "><a href="school_projects.html"><strong aria-hidden="true">3.6.</strong> Fractals</a></li><li class="chapter-item expanded "><a href="school_projects.html"><strong aria-hidden="true">3.7.</strong> Wireframe</a></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="welcome.html"><strong aria-hidden="true">1.</strong> Welcome</a></li><li class="chapter-item expanded affix "><li class="part-title"></li><li class="spacer"></li><li class="chapter-item expanded "><a href="side_projects.html"><strong aria-hidden="true">2.</strong> Side projects</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="side_projects.html"><strong aria-hidden="true">2.1.</strong> Voxel engine</a></li><li class="chapter-item expanded "><a href="side_projects.html"><strong aria-hidden="true">2.2.</strong> AmongUs Detector</a></li></ol></li><li class="chapter-item expanded "><li class="part-title"></li><li class="spacer"></li><li class="chapter-item expanded "><a href="video_game_tools.html"><strong aria-hidden="true">3.</strong> Video game tools</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="video_game_tools.html"><strong aria-hidden="true">3.1.</strong> EVE Online Intel Map</a></li><li class="chapter-item expanded "><a href="video_game_tools.html"><strong aria-hidden="true">3.2.</strong> Dual Universe in-game scripts</a></li><li class="chapter-item expanded "><a href="video_game_tools.html"><strong aria-hidden="true">3.3.</strong> Sanctuary community tool</a></li></ol></li><li class="chapter-item expanded "><li class="part-title"></li><li class="spacer"></li><li class="chapter-item expanded "><a href="school_projects.html"><strong aria-hidden="true">4.</strong> Some school projects</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="school_projects.html"><strong aria-hidden="true">4.1.</strong> 3D graphical engine</a></li><li class="chapter-item expanded "><a href="school_projects.html"><strong aria-hidden="true">4.2.</strong> HumanGL</a></li><li class="chapter-item expanded "><a href="school_projects.html"><strong aria-hidden="true">4.3.</strong> Raytracing</a></li><li class="chapter-item expanded "><a href="school_projects.html"><strong aria-hidden="true">4.4.</strong> Corewar</a></li><li class="chapter-item expanded "><a href="school_projects.html"><strong aria-hidden="true">4.5.</strong> Wold3D game</a></li><li class="chapter-item expanded "><a href="school_projects.html"><strong aria-hidden="true">4.6.</strong> Fractals</a></li><li class="chapter-item expanded "><a href="school_projects.html"><strong aria-hidden="true">4.7.</strong> Wireframe</a></li></ol></li><li class="chapter-item expanded "><li class="part-title"></li><li class="spacer"></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -95,9 +95,9 @@
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
                             <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
                         </ul>
                         <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
@@ -138,15 +138,46 @@
 
                 <div id="content" class="content">
                     <main>
-                        <div style="break-before: page; page-break-before: always;"></div><p style="text-align:center;font-size:50px;">
+                        <h1 id="welcome"><a class="header" href="#welcome">Welcome</a></h1>
+<hr />
+<p>I'm a software engineer, leaving in France. I've been programming since 2014.</p>
+<p>Main techs :</p>
+<p><img src="./assets/cpp/cpp_64x64.png" alt="cpp" />
+<img src="./assets/c/c_64x64.png" alt="c" /></p>
+<p>Confident :</p>
+<p><img src="./assets/lua/lua_64x64.png" alt="lua" />
+<img src="./assets/opengl/opengl_64x64.png" alt="opengl" />
+<img src="./assets/qt/qt_x48.png" alt="qt" />
+<img src="./assets/unity/unity_x48.png" alt="unity" />
+<img src="./assets/csharp/csharp_64x64.png" alt="csharp" /></p>
+<p>Currently learning : </p>
+<p><img src="./assets/python/python_64x64.png" alt="python" />
+<img src="./assets/rust/rust_64x64.png" alt="rust" />
+<img src="./assets/vulkan/vulkan_x64.png" alt="vulkan" /></p>
+<p>Already used :</p>
+<p><img src="./assets/blender/blender_64x64.png" alt="blender" />
+<img src="./assets/javascript/javascript_64x64.png" alt="javascript" />
+<img src="./assets/typescript/typescript_64x64.png" alt="typescript" />
+<img src="./assets/html/html_64x64.png" alt="html" />
+<img src="./assets/css/css_64x64.png" alt="css" />
+<img src="./assets/php/php_64x64.png" alt="php" />
+<img src="./assets/swift/swift_64x64.png" alt="swift" />
+<img src="./assets/asm/asm_64x64.png" alt="asm" /></p>
+<hr />
+<ul>
+<li><img src="./assets/github/github_24x24.png" alt="github" /> <a href="https://github.com/rhoffsch42">https://github.com/rhoffsch42</a></li>
+<li><img src="./assets/youtube/youtube_x24.png" alt="youtube" /> <a href="https://www.youtube.com/channel/UCgjzbalQP2kbW4fsJ14_ftQ">https://www.youtube.com/channel/UCgjzbalQP2kbW4fsJ14_ftQ</a></li>
+<li><img src="./assets/mail/mail_32x.png" alt="mail" /> <a href="mailto:rhoffsch@gmail.com">rhoffsch@gmail.com</a></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><p style="text-align:center;font-size:50px;">
 Side projects
 </p>
-<h1 id="voxel-engine---repo-"><a class="header" href="#voxel-engine---repo-"><img src="../assets/cpp/cpp_32x32.png" alt="cpp" /> <img src="../assets/opengl/opengl_32x32.png" alt="opengl" /> Voxel engine - <a href="https://github.com/rhoffsch42/Octree-Quadtree-Procedural">repo ⇗</a></a></h1>
+<h1 id="voxel-engine---repo-"><a class="header" href="#voxel-engine---repo-"><img src="./assets/cpp/cpp_32x32.png" alt="cpp" /> <img src="./assets/opengl/opengl_32x32.png" alt="opengl" /> Voxel engine - <a href="https://github.com/rhoffsch42/Octree-Quadtree-Procedural">repo ⇗</a></a></h1>
 <p>A typical minecraft engine, using octrees and procedural generation. WIP.</p>
 <p><a href="https://www.youtube.com/watch?v=7nj2OTwm5g4">Demo video ⇗</a>
 <br>
 <br></p>
-<h1 id="among-us-detector---repo-"><a class="header" href="#among-us-detector---repo-"><img src="../assets/cpp/cpp_32x32.png" alt="cpp" /> <img src="../assets/python/python_32x32.png" alt="python" /> Among Us detector - <a href="https://github.com/rhoffsch42/rplace-among-us-detector">repo ⇗</a></a></h1>
+<h1 id="among-us-detector---repo-"><a class="header" href="#among-us-detector---repo-"><img src="./assets/cpp/cpp_32x32.png" alt="cpp" /> <img src="./assets/python/python_32x32.png" alt="python" /> Among Us detector - <a href="https://github.com/rhoffsch42/rplace-among-us-detector">repo ⇗</a></a></h1>
 <p>During r/place 2022, the Among Us community drawn a lot of their beloved character on the canvas. This script finds every character hidden in an image. All the images were then assembled to create a <a href="https://www.youtube.com/watch?v=ljDQlrhlVp4">video timelapse ⇗</a>.</p>
 <img src="https://i.imgur.com/ThiSu8k.png" alt="drawing" width="400"/>
 <br>
@@ -154,12 +185,12 @@ Side projects
 <div style="break-before: page; page-break-before: always;"></div><p style="text-align:center;font-size:50px;">
 Side projects
 </p>
-<h1 id="voxel-engine---repo--1"><a class="header" href="#voxel-engine---repo--1"><img src="../assets/cpp/cpp_32x32.png" alt="cpp" /> <img src="../assets/opengl/opengl_32x32.png" alt="opengl" /> Voxel engine - <a href="https://github.com/rhoffsch42/Octree-Quadtree-Procedural">repo ⇗</a></a></h1>
+<h1 id="voxel-engine---repo--1"><a class="header" href="#voxel-engine---repo--1"><img src="./assets/cpp/cpp_32x32.png" alt="cpp" /> <img src="./assets/opengl/opengl_32x32.png" alt="opengl" /> Voxel engine - <a href="https://github.com/rhoffsch42/Octree-Quadtree-Procedural">repo ⇗</a></a></h1>
 <p>A typical minecraft engine, using octrees and procedural generation. WIP.</p>
 <p><a href="https://www.youtube.com/watch?v=7nj2OTwm5g4">Demo video ⇗</a>
 <br>
 <br></p>
-<h1 id="among-us-detector---repo--1"><a class="header" href="#among-us-detector---repo--1"><img src="../assets/cpp/cpp_32x32.png" alt="cpp" /> <img src="../assets/python/python_32x32.png" alt="python" /> Among Us detector - <a href="https://github.com/rhoffsch42/rplace-among-us-detector">repo ⇗</a></a></h1>
+<h1 id="among-us-detector---repo--1"><a class="header" href="#among-us-detector---repo--1"><img src="./assets/cpp/cpp_32x32.png" alt="cpp" /> <img src="./assets/python/python_32x32.png" alt="python" /> Among Us detector - <a href="https://github.com/rhoffsch42/rplace-among-us-detector">repo ⇗</a></a></h1>
 <p>During r/place 2022, the Among Us community drawn a lot of their beloved character on the canvas. This script finds every character hidden in an image. All the images were then assembled to create a <a href="https://www.youtube.com/watch?v=ljDQlrhlVp4">video timelapse ⇗</a>.</p>
 <img src="https://i.imgur.com/ThiSu8k.png" alt="drawing" width="400"/>
 <br>
@@ -167,12 +198,12 @@ Side projects
 <div style="break-before: page; page-break-before: always;"></div><p style="text-align:center;font-size:50px;">
 Side projects
 </p>
-<h1 id="voxel-engine---repo--2"><a class="header" href="#voxel-engine---repo--2"><img src="../assets/cpp/cpp_32x32.png" alt="cpp" /> <img src="../assets/opengl/opengl_32x32.png" alt="opengl" /> Voxel engine - <a href="https://github.com/rhoffsch42/Octree-Quadtree-Procedural">repo ⇗</a></a></h1>
+<h1 id="voxel-engine---repo--2"><a class="header" href="#voxel-engine---repo--2"><img src="./assets/cpp/cpp_32x32.png" alt="cpp" /> <img src="./assets/opengl/opengl_32x32.png" alt="opengl" /> Voxel engine - <a href="https://github.com/rhoffsch42/Octree-Quadtree-Procedural">repo ⇗</a></a></h1>
 <p>A typical minecraft engine, using octrees and procedural generation. WIP.</p>
 <p><a href="https://www.youtube.com/watch?v=7nj2OTwm5g4">Demo video ⇗</a>
 <br>
 <br></p>
-<h1 id="among-us-detector---repo--2"><a class="header" href="#among-us-detector---repo--2"><img src="../assets/cpp/cpp_32x32.png" alt="cpp" /> <img src="../assets/python/python_32x32.png" alt="python" /> Among Us detector - <a href="https://github.com/rhoffsch42/rplace-among-us-detector">repo ⇗</a></a></h1>
+<h1 id="among-us-detector---repo--2"><a class="header" href="#among-us-detector---repo--2"><img src="./assets/cpp/cpp_32x32.png" alt="cpp" /> <img src="./assets/python/python_32x32.png" alt="python" /> Among Us detector - <a href="https://github.com/rhoffsch42/rplace-among-us-detector">repo ⇗</a></a></h1>
 <p>During r/place 2022, the Among Us community drawn a lot of their beloved character on the canvas. This script finds every character hidden in an image. All the images were then assembled to create a <a href="https://www.youtube.com/watch?v=ljDQlrhlVp4">video timelapse ⇗</a>.</p>
 <img src="https://i.imgur.com/ThiSu8k.png" alt="drawing" width="400"/>
 <br>
@@ -180,80 +211,80 @@ Side projects
 <div style="break-before: page; page-break-before: always;"></div><p style="text-align:center;font-size:50px;">
 Video game tools
 </p>
-<h1 id="eve-online-intel-map---repo-"><a class="header" href="#eve-online-intel-map---repo-"><img src="../assets/cpp/cpp_32x32.png" alt="cpp" /> <img src="../assets/qt/qt_32x32.png" alt="qt" /> EVE Online Intel Map - <a href="https://github.com/rhoffsch42/EVE_IntelMap">repo ⇗</a></a></h1>
+<h1 id="eve-online-intel-map---repo-"><a class="header" href="#eve-online-intel-map---repo-"><img src="./assets/cpp/cpp_32x32.png" alt="cpp" /> <img src="./assets/qt/qt_x24.png" alt="qt" /> EVE Online Intel Map - <a href="https://github.com/rhoffsch42/EVE_IntelMap">repo ⇗</a></a></h1>
 <p>Application for the game EVE Online, designed to easely track players position across solar systems. Based on player's intel, it alerts (visual + sound) the user when other players are detecting enemis.</p>
 <img src="https://i.imgur.com/tISdKne.png" alt="drawing" width="220"/>
 <img src="https://i.imgur.com/zfscUm0.png" alt="drawing" width="220"/>
 <img src="https://i.imgur.com/zaDnThX.png" alt="drawing" width="220"/>
 <br>
 <br>
-<h1 id="dual-universe-in-game-scripts---repo-"><a class="header" href="#dual-universe-in-game-scripts---repo-"><img src="../assets/lua/lua_32x32.png" alt="lua" /> Dual Universe in-game scripts - <a href="https://github.com/rhoffsch42/DualUniverse-public">repo ⇗</a></a></h1>
+<h1 id="dual-universe-in-game-scripts---repo-"><a class="header" href="#dual-universe-in-game-scripts---repo-"><img src="./assets/lua/lua_32x32.png" alt="lua" /> Dual Universe in-game scripts - <a href="https://github.com/rhoffsch42/DualUniverse-public">repo ⇗</a></a></h1>
 <p>Dual Universe is a MMO game where everything is built by players with voxels, from simple buildings on planets to ships with complexe piloting systems. A lot of in-game elements can be scripted. This is a public repository of my scripts, a lot of these are UI related, especially 3D projections.</p>
 <img src="https://i.imgur.com/EGOk1fm.png" alt="drawing" width="320"/>
 <img src="https://i.imgur.com/1dGe5EG.png" alt="drawing" width="320"/>
 <br>
 <br>
-<h1 id="sanctuary-community-tool---repo-"><a class="header" href="#sanctuary-community-tool---repo-"><img src="../assets/python/python_32x32.png" alt="python" /> <img src="../assets/blender/blender_32x32.png" alt="blender" /> Sanctuary community tool - <a href="https://github.com/rhoffsch42/sanmodel-blender">repo ⇗</a></a></h1>
+<h1 id="sanctuary-community-tool---repo-"><a class="header" href="#sanctuary-community-tool---repo-"><img src="./assets/python/python_32x32.png" alt="python" /> <img src="./assets/blender/blender_32x32.png" alt="blender" /> Sanctuary community tool - <a href="https://github.com/rhoffsch42/sanmodel-blender">repo ⇗</a></a></h1>
 <p>A Blender addon to import/export sanmodel files, the game's model format. Sanctuary is a RTS game still in development, so this is a work in progress.</p>
 <img src="https://i.imgur.com/cnTOvAY.png" alt="drawing" width="320"/>
 <br>
 <br><div style="break-before: page; page-break-before: always;"></div><p style="text-align:center;font-size:50px;">
 Video game tools
 </p>
-<h1 id="eve-online-intel-map---repo--1"><a class="header" href="#eve-online-intel-map---repo--1"><img src="../assets/cpp/cpp_32x32.png" alt="cpp" /> <img src="../assets/qt/qt_32x32.png" alt="qt" /> EVE Online Intel Map - <a href="https://github.com/rhoffsch42/EVE_IntelMap">repo ⇗</a></a></h1>
+<h1 id="eve-online-intel-map---repo--1"><a class="header" href="#eve-online-intel-map---repo--1"><img src="./assets/cpp/cpp_32x32.png" alt="cpp" /> <img src="./assets/qt/qt_x24.png" alt="qt" /> EVE Online Intel Map - <a href="https://github.com/rhoffsch42/EVE_IntelMap">repo ⇗</a></a></h1>
 <p>Application for the game EVE Online, designed to easely track players position across solar systems. Based on player's intel, it alerts (visual + sound) the user when other players are detecting enemis.</p>
 <img src="https://i.imgur.com/tISdKne.png" alt="drawing" width="220"/>
 <img src="https://i.imgur.com/zfscUm0.png" alt="drawing" width="220"/>
 <img src="https://i.imgur.com/zaDnThX.png" alt="drawing" width="220"/>
 <br>
 <br>
-<h1 id="dual-universe-in-game-scripts---repo--1"><a class="header" href="#dual-universe-in-game-scripts---repo--1"><img src="../assets/lua/lua_32x32.png" alt="lua" /> Dual Universe in-game scripts - <a href="https://github.com/rhoffsch42/DualUniverse-public">repo ⇗</a></a></h1>
+<h1 id="dual-universe-in-game-scripts---repo--1"><a class="header" href="#dual-universe-in-game-scripts---repo--1"><img src="./assets/lua/lua_32x32.png" alt="lua" /> Dual Universe in-game scripts - <a href="https://github.com/rhoffsch42/DualUniverse-public">repo ⇗</a></a></h1>
 <p>Dual Universe is a MMO game where everything is built by players with voxels, from simple buildings on planets to ships with complexe piloting systems. A lot of in-game elements can be scripted. This is a public repository of my scripts, a lot of these are UI related, especially 3D projections.</p>
 <img src="https://i.imgur.com/EGOk1fm.png" alt="drawing" width="320"/>
 <img src="https://i.imgur.com/1dGe5EG.png" alt="drawing" width="320"/>
 <br>
 <br>
-<h1 id="sanctuary-community-tool---repo--1"><a class="header" href="#sanctuary-community-tool---repo--1"><img src="../assets/python/python_32x32.png" alt="python" /> <img src="../assets/blender/blender_32x32.png" alt="blender" /> Sanctuary community tool - <a href="https://github.com/rhoffsch42/sanmodel-blender">repo ⇗</a></a></h1>
+<h1 id="sanctuary-community-tool---repo--1"><a class="header" href="#sanctuary-community-tool---repo--1"><img src="./assets/python/python_32x32.png" alt="python" /> <img src="./assets/blender/blender_32x32.png" alt="blender" /> Sanctuary community tool - <a href="https://github.com/rhoffsch42/sanmodel-blender">repo ⇗</a></a></h1>
 <p>A Blender addon to import/export sanmodel files, the game's model format. Sanctuary is a RTS game still in development, so this is a work in progress.</p>
 <img src="https://i.imgur.com/cnTOvAY.png" alt="drawing" width="320"/>
 <br>
 <br><div style="break-before: page; page-break-before: always;"></div><p style="text-align:center;font-size:50px;">
 Video game tools
 </p>
-<h1 id="eve-online-intel-map---repo--2"><a class="header" href="#eve-online-intel-map---repo--2"><img src="../assets/cpp/cpp_32x32.png" alt="cpp" /> <img src="../assets/qt/qt_32x32.png" alt="qt" /> EVE Online Intel Map - <a href="https://github.com/rhoffsch42/EVE_IntelMap">repo ⇗</a></a></h1>
+<h1 id="eve-online-intel-map---repo--2"><a class="header" href="#eve-online-intel-map---repo--2"><img src="./assets/cpp/cpp_32x32.png" alt="cpp" /> <img src="./assets/qt/qt_x24.png" alt="qt" /> EVE Online Intel Map - <a href="https://github.com/rhoffsch42/EVE_IntelMap">repo ⇗</a></a></h1>
 <p>Application for the game EVE Online, designed to easely track players position across solar systems. Based on player's intel, it alerts (visual + sound) the user when other players are detecting enemis.</p>
 <img src="https://i.imgur.com/tISdKne.png" alt="drawing" width="220"/>
 <img src="https://i.imgur.com/zfscUm0.png" alt="drawing" width="220"/>
 <img src="https://i.imgur.com/zaDnThX.png" alt="drawing" width="220"/>
 <br>
 <br>
-<h1 id="dual-universe-in-game-scripts---repo--2"><a class="header" href="#dual-universe-in-game-scripts---repo--2"><img src="../assets/lua/lua_32x32.png" alt="lua" /> Dual Universe in-game scripts - <a href="https://github.com/rhoffsch42/DualUniverse-public">repo ⇗</a></a></h1>
+<h1 id="dual-universe-in-game-scripts---repo--2"><a class="header" href="#dual-universe-in-game-scripts---repo--2"><img src="./assets/lua/lua_32x32.png" alt="lua" /> Dual Universe in-game scripts - <a href="https://github.com/rhoffsch42/DualUniverse-public">repo ⇗</a></a></h1>
 <p>Dual Universe is a MMO game where everything is built by players with voxels, from simple buildings on planets to ships with complexe piloting systems. A lot of in-game elements can be scripted. This is a public repository of my scripts, a lot of these are UI related, especially 3D projections.</p>
 <img src="https://i.imgur.com/EGOk1fm.png" alt="drawing" width="320"/>
 <img src="https://i.imgur.com/1dGe5EG.png" alt="drawing" width="320"/>
 <br>
 <br>
-<h1 id="sanctuary-community-tool---repo--2"><a class="header" href="#sanctuary-community-tool---repo--2"><img src="../assets/python/python_32x32.png" alt="python" /> <img src="../assets/blender/blender_32x32.png" alt="blender" /> Sanctuary community tool - <a href="https://github.com/rhoffsch42/sanmodel-blender">repo ⇗</a></a></h1>
+<h1 id="sanctuary-community-tool---repo--2"><a class="header" href="#sanctuary-community-tool---repo--2"><img src="./assets/python/python_32x32.png" alt="python" /> <img src="./assets/blender/blender_32x32.png" alt="blender" /> Sanctuary community tool - <a href="https://github.com/rhoffsch42/sanmodel-blender">repo ⇗</a></a></h1>
 <p>A Blender addon to import/export sanmodel files, the game's model format. Sanctuary is a RTS game still in development, so this is a work in progress.</p>
 <img src="https://i.imgur.com/cnTOvAY.png" alt="drawing" width="320"/>
 <br>
 <br><div style="break-before: page; page-break-before: always;"></div><p style="text-align:center;font-size:50px;">
 Video game tools
 </p>
-<h1 id="eve-online-intel-map---repo--3"><a class="header" href="#eve-online-intel-map---repo--3"><img src="../assets/cpp/cpp_32x32.png" alt="cpp" /> <img src="../assets/qt/qt_32x32.png" alt="qt" /> EVE Online Intel Map - <a href="https://github.com/rhoffsch42/EVE_IntelMap">repo ⇗</a></a></h1>
+<h1 id="eve-online-intel-map---repo--3"><a class="header" href="#eve-online-intel-map---repo--3"><img src="./assets/cpp/cpp_32x32.png" alt="cpp" /> <img src="./assets/qt/qt_x24.png" alt="qt" /> EVE Online Intel Map - <a href="https://github.com/rhoffsch42/EVE_IntelMap">repo ⇗</a></a></h1>
 <p>Application for the game EVE Online, designed to easely track players position across solar systems. Based on player's intel, it alerts (visual + sound) the user when other players are detecting enemis.</p>
 <img src="https://i.imgur.com/tISdKne.png" alt="drawing" width="220"/>
 <img src="https://i.imgur.com/zfscUm0.png" alt="drawing" width="220"/>
 <img src="https://i.imgur.com/zaDnThX.png" alt="drawing" width="220"/>
 <br>
 <br>
-<h1 id="dual-universe-in-game-scripts---repo--3"><a class="header" href="#dual-universe-in-game-scripts---repo--3"><img src="../assets/lua/lua_32x32.png" alt="lua" /> Dual Universe in-game scripts - <a href="https://github.com/rhoffsch42/DualUniverse-public">repo ⇗</a></a></h1>
+<h1 id="dual-universe-in-game-scripts---repo--3"><a class="header" href="#dual-universe-in-game-scripts---repo--3"><img src="./assets/lua/lua_32x32.png" alt="lua" /> Dual Universe in-game scripts - <a href="https://github.com/rhoffsch42/DualUniverse-public">repo ⇗</a></a></h1>
 <p>Dual Universe is a MMO game where everything is built by players with voxels, from simple buildings on planets to ships with complexe piloting systems. A lot of in-game elements can be scripted. This is a public repository of my scripts, a lot of these are UI related, especially 3D projections.</p>
 <img src="https://i.imgur.com/EGOk1fm.png" alt="drawing" width="320"/>
 <img src="https://i.imgur.com/1dGe5EG.png" alt="drawing" width="320"/>
 <br>
 <br>
-<h1 id="sanctuary-community-tool---repo--3"><a class="header" href="#sanctuary-community-tool---repo--3"><img src="../assets/python/python_32x32.png" alt="python" /> <img src="../assets/blender/blender_32x32.png" alt="blender" /> Sanctuary community tool - <a href="https://github.com/rhoffsch42/sanmodel-blender">repo ⇗</a></a></h1>
+<h1 id="sanctuary-community-tool---repo--3"><a class="header" href="#sanctuary-community-tool---repo--3"><img src="./assets/python/python_32x32.png" alt="python" /> <img src="./assets/blender/blender_32x32.png" alt="blender" /> Sanctuary community tool - <a href="https://github.com/rhoffsch42/sanmodel-blender">repo ⇗</a></a></h1>
 <p>A Blender addon to import/export sanmodel files, the game's model format. Sanctuary is a RTS game still in development, so this is a work in progress.</p>
 <img src="https://i.imgur.com/cnTOvAY.png" alt="drawing" width="320"/>
 <br>
@@ -262,36 +293,36 @@ School projects
 </p>
 <h3 id="youtube-playlist-"><a class="header" href="#youtube-playlist-"><a href="https://www.youtube.com/watch?v=Oz_VMhNBpak&amp;list=PL_zYbCWaNF7GNl4vMvyzbuaPQw9lTh8wY">Youtube playlist ⇗</a></a></h3>
 <br>
-<h1 id="3d-graphical-engine---repo-"><a class="header" href="#3d-graphical-engine---repo-"><img src="../assets/cpp/cpp_32x32.png" alt="cpp" /> 3D graphical engine - <a href="https://github.com/rhoffsch42/scop">repo ⇗</a></a></h1>
+<h1 id="3d-graphical-engine---repo-"><a class="header" href="#3d-graphical-engine---repo-"><img src="./assets/cpp/cpp_32x32.png" alt="cpp" /> 3D graphical engine - <a href="https://github.com/rhoffsch42/scop">repo ⇗</a></a></h1>
 <p>A simple engine to render 3D models.</p>
 <img src="https://i.imgur.com/N7qYk4P.png" alt="drawing" height="250" width="350"/>
 <br>
 <br>
-<h1 id="humangl---repo-"><a class="header" href="#humangl---repo-"><img src="../assets/cpp/cpp_32x32.png" alt="cpp" /> HumanGL - <a href="https://github.com/rhoffsch42/HumanGL">repo ⇗</a></a></h1>
+<h1 id="humangl---repo-"><a class="header" href="#humangl---repo-"><img src="./assets/cpp/cpp_32x32.png" alt="cpp" /> HumanGL - <a href="https://github.com/rhoffsch42/HumanGL">repo ⇗</a></a></h1>
 <p>The aim of this project was to use a hierarchy of matrices to make animations.
 <br>
 <br></p>
-<h1 id="raytracing---repo-"><a class="header" href="#raytracing---repo-"><img src="../assets/c/c_32x32.png" alt="c" /> Raytracing - <a href="https://github.com/rhoffsch42/rtv1">repo ⇗</a></a></h1>
+<h1 id="raytracing---repo-"><a class="header" href="#raytracing---repo-"><img src="./assets/c/c_32x32.png" alt="c" /> Raytracing - <a href="https://github.com/rhoffsch42/rtv1">repo ⇗</a></a></h1>
 <p>Group project : a 3D engine using raytracing.</p>
 <img src="https://i.imgur.com/fmObdZP.png" alt="drawing" width="650"/>
 <br>
 <br>
-<h1 id="corewar---repo-"><a class="header" href="#corewar---repo-"><img src="../assets/c/c_32x32.png" alt="c" /> Corewar - <a href="https://github.com/rhoffsch42/Corewar">repo ⇗</a></a></h1>
+<h1 id="corewar---repo-"><a class="header" href="#corewar---repo-"><img src="./assets/c/c_32x32.png" alt="c" /> Corewar - <a href="https://github.com/rhoffsch42/Corewar">repo ⇗</a></a></h1>
 <p>Group project : in this game, computer programs (called &quot;Champions&quot;) compete in a virtual arena for memory supremacy. Champions are written in an Assembly dialect called &quot;Redcode&quot;.</p>
 <img src="https://i.imgur.com/eFNeB86.png" alt="drawing" width="650"/>
 <br>
 <br>
-<h1 id="wolf3d-game---repo-"><a class="header" href="#wolf3d-game---repo-"><img src="../assets/c/c_32x32.png" alt="c" /> Wolf3D game - <a href="https://github.com/rhoffsch42/Wolf3D">repo ⇗</a></a></h1>
+<h1 id="wolf3d-game---repo-"><a class="header" href="#wolf3d-game---repo-"><img src="./assets/c/c_32x32.png" alt="c" /> Wolf3D game - <a href="https://github.com/rhoffsch42/Wolf3D">repo ⇗</a></a></h1>
 <p>A game like Wolfeinstein3D or Doom, using raycasting.</p>
 <img src="https://i.imgur.com/dFlhCq4.png" alt="drawing" height="250" width="350"/>
 <br>
 <br>
-<h1 id="fractals---repo-"><a class="header" href="#fractals---repo-"><img src="../assets/c/c_32x32.png" alt="c" /> Fractals - <a href="https://github.com/rhoffsch42/fractals">repo ⇗</a></a></h1>
+<h1 id="fractals---repo-"><a class="header" href="#fractals---repo-"><img src="./assets/c/c_32x32.png" alt="c" /> Fractals - <a href="https://github.com/rhoffsch42/fractals">repo ⇗</a></a></h1>
 <p>The famous Mandelbrot set, Julia set, and other fractals.</p>
 <img src="https://i.imgur.com/A8ubaGK.png" alt="drawing" width="650"/>
 <br>
 <br>
-<h1 id="wireframe---repo-"><a class="header" href="#wireframe---repo-"><img src="../assets/c/c_32x32.png" alt="c" /> Wireframe - <a href="https://github.com/rhoffsch42/fdf">repo ⇗</a></a></h1>
+<h1 id="wireframe---repo-"><a class="header" href="#wireframe---repo-"><img src="./assets/c/c_32x32.png" alt="c" /> Wireframe - <a href="https://github.com/rhoffsch42/fdf">repo ⇗</a></a></h1>
 <p>Isometric wireframe visualization of a relief. A basic project to introduce the use of a graphic library.</p>
 <img src="https://i.imgur.com/OQ2hABF.png" alt="drawing" width="650"/>
 <br>
@@ -301,36 +332,36 @@ School projects
 </p>
 <h3 id="youtube-playlist--1"><a class="header" href="#youtube-playlist--1"><a href="https://www.youtube.com/watch?v=Oz_VMhNBpak&amp;list=PL_zYbCWaNF7GNl4vMvyzbuaPQw9lTh8wY">Youtube playlist ⇗</a></a></h3>
 <br>
-<h1 id="3d-graphical-engine---repo--1"><a class="header" href="#3d-graphical-engine---repo--1"><img src="../assets/cpp/cpp_32x32.png" alt="cpp" /> 3D graphical engine - <a href="https://github.com/rhoffsch42/scop">repo ⇗</a></a></h1>
+<h1 id="3d-graphical-engine---repo--1"><a class="header" href="#3d-graphical-engine---repo--1"><img src="./assets/cpp/cpp_32x32.png" alt="cpp" /> 3D graphical engine - <a href="https://github.com/rhoffsch42/scop">repo ⇗</a></a></h1>
 <p>A simple engine to render 3D models.</p>
 <img src="https://i.imgur.com/N7qYk4P.png" alt="drawing" height="250" width="350"/>
 <br>
 <br>
-<h1 id="humangl---repo--1"><a class="header" href="#humangl---repo--1"><img src="../assets/cpp/cpp_32x32.png" alt="cpp" /> HumanGL - <a href="https://github.com/rhoffsch42/HumanGL">repo ⇗</a></a></h1>
+<h1 id="humangl---repo--1"><a class="header" href="#humangl---repo--1"><img src="./assets/cpp/cpp_32x32.png" alt="cpp" /> HumanGL - <a href="https://github.com/rhoffsch42/HumanGL">repo ⇗</a></a></h1>
 <p>The aim of this project was to use a hierarchy of matrices to make animations.
 <br>
 <br></p>
-<h1 id="raytracing---repo--1"><a class="header" href="#raytracing---repo--1"><img src="../assets/c/c_32x32.png" alt="c" /> Raytracing - <a href="https://github.com/rhoffsch42/rtv1">repo ⇗</a></a></h1>
+<h1 id="raytracing---repo--1"><a class="header" href="#raytracing---repo--1"><img src="./assets/c/c_32x32.png" alt="c" /> Raytracing - <a href="https://github.com/rhoffsch42/rtv1">repo ⇗</a></a></h1>
 <p>Group project : a 3D engine using raytracing.</p>
 <img src="https://i.imgur.com/fmObdZP.png" alt="drawing" width="650"/>
 <br>
 <br>
-<h1 id="corewar---repo--1"><a class="header" href="#corewar---repo--1"><img src="../assets/c/c_32x32.png" alt="c" /> Corewar - <a href="https://github.com/rhoffsch42/Corewar">repo ⇗</a></a></h1>
+<h1 id="corewar---repo--1"><a class="header" href="#corewar---repo--1"><img src="./assets/c/c_32x32.png" alt="c" /> Corewar - <a href="https://github.com/rhoffsch42/Corewar">repo ⇗</a></a></h1>
 <p>Group project : in this game, computer programs (called &quot;Champions&quot;) compete in a virtual arena for memory supremacy. Champions are written in an Assembly dialect called &quot;Redcode&quot;.</p>
 <img src="https://i.imgur.com/eFNeB86.png" alt="drawing" width="650"/>
 <br>
 <br>
-<h1 id="wolf3d-game---repo--1"><a class="header" href="#wolf3d-game---repo--1"><img src="../assets/c/c_32x32.png" alt="c" /> Wolf3D game - <a href="https://github.com/rhoffsch42/Wolf3D">repo ⇗</a></a></h1>
+<h1 id="wolf3d-game---repo--1"><a class="header" href="#wolf3d-game---repo--1"><img src="./assets/c/c_32x32.png" alt="c" /> Wolf3D game - <a href="https://github.com/rhoffsch42/Wolf3D">repo ⇗</a></a></h1>
 <p>A game like Wolfeinstein3D or Doom, using raycasting.</p>
 <img src="https://i.imgur.com/dFlhCq4.png" alt="drawing" height="250" width="350"/>
 <br>
 <br>
-<h1 id="fractals---repo--1"><a class="header" href="#fractals---repo--1"><img src="../assets/c/c_32x32.png" alt="c" /> Fractals - <a href="https://github.com/rhoffsch42/fractals">repo ⇗</a></a></h1>
+<h1 id="fractals---repo--1"><a class="header" href="#fractals---repo--1"><img src="./assets/c/c_32x32.png" alt="c" /> Fractals - <a href="https://github.com/rhoffsch42/fractals">repo ⇗</a></a></h1>
 <p>The famous Mandelbrot set, Julia set, and other fractals.</p>
 <img src="https://i.imgur.com/A8ubaGK.png" alt="drawing" width="650"/>
 <br>
 <br>
-<h1 id="wireframe---repo--1"><a class="header" href="#wireframe---repo--1"><img src="../assets/c/c_32x32.png" alt="c" /> Wireframe - <a href="https://github.com/rhoffsch42/fdf">repo ⇗</a></a></h1>
+<h1 id="wireframe---repo--1"><a class="header" href="#wireframe---repo--1"><img src="./assets/c/c_32x32.png" alt="c" /> Wireframe - <a href="https://github.com/rhoffsch42/fdf">repo ⇗</a></a></h1>
 <p>Isometric wireframe visualization of a relief. A basic project to introduce the use of a graphic library.</p>
 <img src="https://i.imgur.com/OQ2hABF.png" alt="drawing" width="650"/>
 <br>
@@ -340,36 +371,36 @@ School projects
 </p>
 <h3 id="youtube-playlist--2"><a class="header" href="#youtube-playlist--2"><a href="https://www.youtube.com/watch?v=Oz_VMhNBpak&amp;list=PL_zYbCWaNF7GNl4vMvyzbuaPQw9lTh8wY">Youtube playlist ⇗</a></a></h3>
 <br>
-<h1 id="3d-graphical-engine---repo--2"><a class="header" href="#3d-graphical-engine---repo--2"><img src="../assets/cpp/cpp_32x32.png" alt="cpp" /> 3D graphical engine - <a href="https://github.com/rhoffsch42/scop">repo ⇗</a></a></h1>
+<h1 id="3d-graphical-engine---repo--2"><a class="header" href="#3d-graphical-engine---repo--2"><img src="./assets/cpp/cpp_32x32.png" alt="cpp" /> 3D graphical engine - <a href="https://github.com/rhoffsch42/scop">repo ⇗</a></a></h1>
 <p>A simple engine to render 3D models.</p>
 <img src="https://i.imgur.com/N7qYk4P.png" alt="drawing" height="250" width="350"/>
 <br>
 <br>
-<h1 id="humangl---repo--2"><a class="header" href="#humangl---repo--2"><img src="../assets/cpp/cpp_32x32.png" alt="cpp" /> HumanGL - <a href="https://github.com/rhoffsch42/HumanGL">repo ⇗</a></a></h1>
+<h1 id="humangl---repo--2"><a class="header" href="#humangl---repo--2"><img src="./assets/cpp/cpp_32x32.png" alt="cpp" /> HumanGL - <a href="https://github.com/rhoffsch42/HumanGL">repo ⇗</a></a></h1>
 <p>The aim of this project was to use a hierarchy of matrices to make animations.
 <br>
 <br></p>
-<h1 id="raytracing---repo--2"><a class="header" href="#raytracing---repo--2"><img src="../assets/c/c_32x32.png" alt="c" /> Raytracing - <a href="https://github.com/rhoffsch42/rtv1">repo ⇗</a></a></h1>
+<h1 id="raytracing---repo--2"><a class="header" href="#raytracing---repo--2"><img src="./assets/c/c_32x32.png" alt="c" /> Raytracing - <a href="https://github.com/rhoffsch42/rtv1">repo ⇗</a></a></h1>
 <p>Group project : a 3D engine using raytracing.</p>
 <img src="https://i.imgur.com/fmObdZP.png" alt="drawing" width="650"/>
 <br>
 <br>
-<h1 id="corewar---repo--2"><a class="header" href="#corewar---repo--2"><img src="../assets/c/c_32x32.png" alt="c" /> Corewar - <a href="https://github.com/rhoffsch42/Corewar">repo ⇗</a></a></h1>
+<h1 id="corewar---repo--2"><a class="header" href="#corewar---repo--2"><img src="./assets/c/c_32x32.png" alt="c" /> Corewar - <a href="https://github.com/rhoffsch42/Corewar">repo ⇗</a></a></h1>
 <p>Group project : in this game, computer programs (called &quot;Champions&quot;) compete in a virtual arena for memory supremacy. Champions are written in an Assembly dialect called &quot;Redcode&quot;.</p>
 <img src="https://i.imgur.com/eFNeB86.png" alt="drawing" width="650"/>
 <br>
 <br>
-<h1 id="wolf3d-game---repo--2"><a class="header" href="#wolf3d-game---repo--2"><img src="../assets/c/c_32x32.png" alt="c" /> Wolf3D game - <a href="https://github.com/rhoffsch42/Wolf3D">repo ⇗</a></a></h1>
+<h1 id="wolf3d-game---repo--2"><a class="header" href="#wolf3d-game---repo--2"><img src="./assets/c/c_32x32.png" alt="c" /> Wolf3D game - <a href="https://github.com/rhoffsch42/Wolf3D">repo ⇗</a></a></h1>
 <p>A game like Wolfeinstein3D or Doom, using raycasting.</p>
 <img src="https://i.imgur.com/dFlhCq4.png" alt="drawing" height="250" width="350"/>
 <br>
 <br>
-<h1 id="fractals---repo--2"><a class="header" href="#fractals---repo--2"><img src="../assets/c/c_32x32.png" alt="c" /> Fractals - <a href="https://github.com/rhoffsch42/fractals">repo ⇗</a></a></h1>
+<h1 id="fractals---repo--2"><a class="header" href="#fractals---repo--2"><img src="./assets/c/c_32x32.png" alt="c" /> Fractals - <a href="https://github.com/rhoffsch42/fractals">repo ⇗</a></a></h1>
 <p>The famous Mandelbrot set, Julia set, and other fractals.</p>
 <img src="https://i.imgur.com/A8ubaGK.png" alt="drawing" width="650"/>
 <br>
 <br>
-<h1 id="wireframe---repo--2"><a class="header" href="#wireframe---repo--2"><img src="../assets/c/c_32x32.png" alt="c" /> Wireframe - <a href="https://github.com/rhoffsch42/fdf">repo ⇗</a></a></h1>
+<h1 id="wireframe---repo--2"><a class="header" href="#wireframe---repo--2"><img src="./assets/c/c_32x32.png" alt="c" /> Wireframe - <a href="https://github.com/rhoffsch42/fdf">repo ⇗</a></a></h1>
 <p>Isometric wireframe visualization of a relief. A basic project to introduce the use of a graphic library.</p>
 <img src="https://i.imgur.com/OQ2hABF.png" alt="drawing" width="650"/>
 <br>
@@ -379,36 +410,36 @@ School projects
 </p>
 <h3 id="youtube-playlist--3"><a class="header" href="#youtube-playlist--3"><a href="https://www.youtube.com/watch?v=Oz_VMhNBpak&amp;list=PL_zYbCWaNF7GNl4vMvyzbuaPQw9lTh8wY">Youtube playlist ⇗</a></a></h3>
 <br>
-<h1 id="3d-graphical-engine---repo--3"><a class="header" href="#3d-graphical-engine---repo--3"><img src="../assets/cpp/cpp_32x32.png" alt="cpp" /> 3D graphical engine - <a href="https://github.com/rhoffsch42/scop">repo ⇗</a></a></h1>
+<h1 id="3d-graphical-engine---repo--3"><a class="header" href="#3d-graphical-engine---repo--3"><img src="./assets/cpp/cpp_32x32.png" alt="cpp" /> 3D graphical engine - <a href="https://github.com/rhoffsch42/scop">repo ⇗</a></a></h1>
 <p>A simple engine to render 3D models.</p>
 <img src="https://i.imgur.com/N7qYk4P.png" alt="drawing" height="250" width="350"/>
 <br>
 <br>
-<h1 id="humangl---repo--3"><a class="header" href="#humangl---repo--3"><img src="../assets/cpp/cpp_32x32.png" alt="cpp" /> HumanGL - <a href="https://github.com/rhoffsch42/HumanGL">repo ⇗</a></a></h1>
+<h1 id="humangl---repo--3"><a class="header" href="#humangl---repo--3"><img src="./assets/cpp/cpp_32x32.png" alt="cpp" /> HumanGL - <a href="https://github.com/rhoffsch42/HumanGL">repo ⇗</a></a></h1>
 <p>The aim of this project was to use a hierarchy of matrices to make animations.
 <br>
 <br></p>
-<h1 id="raytracing---repo--3"><a class="header" href="#raytracing---repo--3"><img src="../assets/c/c_32x32.png" alt="c" /> Raytracing - <a href="https://github.com/rhoffsch42/rtv1">repo ⇗</a></a></h1>
+<h1 id="raytracing---repo--3"><a class="header" href="#raytracing---repo--3"><img src="./assets/c/c_32x32.png" alt="c" /> Raytracing - <a href="https://github.com/rhoffsch42/rtv1">repo ⇗</a></a></h1>
 <p>Group project : a 3D engine using raytracing.</p>
 <img src="https://i.imgur.com/fmObdZP.png" alt="drawing" width="650"/>
 <br>
 <br>
-<h1 id="corewar---repo--3"><a class="header" href="#corewar---repo--3"><img src="../assets/c/c_32x32.png" alt="c" /> Corewar - <a href="https://github.com/rhoffsch42/Corewar">repo ⇗</a></a></h1>
+<h1 id="corewar---repo--3"><a class="header" href="#corewar---repo--3"><img src="./assets/c/c_32x32.png" alt="c" /> Corewar - <a href="https://github.com/rhoffsch42/Corewar">repo ⇗</a></a></h1>
 <p>Group project : in this game, computer programs (called &quot;Champions&quot;) compete in a virtual arena for memory supremacy. Champions are written in an Assembly dialect called &quot;Redcode&quot;.</p>
 <img src="https://i.imgur.com/eFNeB86.png" alt="drawing" width="650"/>
 <br>
 <br>
-<h1 id="wolf3d-game---repo--3"><a class="header" href="#wolf3d-game---repo--3"><img src="../assets/c/c_32x32.png" alt="c" /> Wolf3D game - <a href="https://github.com/rhoffsch42/Wolf3D">repo ⇗</a></a></h1>
+<h1 id="wolf3d-game---repo--3"><a class="header" href="#wolf3d-game---repo--3"><img src="./assets/c/c_32x32.png" alt="c" /> Wolf3D game - <a href="https://github.com/rhoffsch42/Wolf3D">repo ⇗</a></a></h1>
 <p>A game like Wolfeinstein3D or Doom, using raycasting.</p>
 <img src="https://i.imgur.com/dFlhCq4.png" alt="drawing" height="250" width="350"/>
 <br>
 <br>
-<h1 id="fractals---repo--3"><a class="header" href="#fractals---repo--3"><img src="../assets/c/c_32x32.png" alt="c" /> Fractals - <a href="https://github.com/rhoffsch42/fractals">repo ⇗</a></a></h1>
+<h1 id="fractals---repo--3"><a class="header" href="#fractals---repo--3"><img src="./assets/c/c_32x32.png" alt="c" /> Fractals - <a href="https://github.com/rhoffsch42/fractals">repo ⇗</a></a></h1>
 <p>The famous Mandelbrot set, Julia set, and other fractals.</p>
 <img src="https://i.imgur.com/A8ubaGK.png" alt="drawing" width="650"/>
 <br>
 <br>
-<h1 id="wireframe---repo--3"><a class="header" href="#wireframe---repo--3"><img src="../assets/c/c_32x32.png" alt="c" /> Wireframe - <a href="https://github.com/rhoffsch42/fdf">repo ⇗</a></a></h1>
+<h1 id="wireframe---repo--3"><a class="header" href="#wireframe---repo--3"><img src="./assets/c/c_32x32.png" alt="c" /> Wireframe - <a href="https://github.com/rhoffsch42/fdf">repo ⇗</a></a></h1>
 <p>Isometric wireframe visualization of a relief. A basic project to introduce the use of a graphic library.</p>
 <img src="https://i.imgur.com/OQ2hABF.png" alt="drawing" width="650"/>
 <br>
@@ -418,36 +449,36 @@ School projects
 </p>
 <h3 id="youtube-playlist--4"><a class="header" href="#youtube-playlist--4"><a href="https://www.youtube.com/watch?v=Oz_VMhNBpak&amp;list=PL_zYbCWaNF7GNl4vMvyzbuaPQw9lTh8wY">Youtube playlist ⇗</a></a></h3>
 <br>
-<h1 id="3d-graphical-engine---repo--4"><a class="header" href="#3d-graphical-engine---repo--4"><img src="../assets/cpp/cpp_32x32.png" alt="cpp" /> 3D graphical engine - <a href="https://github.com/rhoffsch42/scop">repo ⇗</a></a></h1>
+<h1 id="3d-graphical-engine---repo--4"><a class="header" href="#3d-graphical-engine---repo--4"><img src="./assets/cpp/cpp_32x32.png" alt="cpp" /> 3D graphical engine - <a href="https://github.com/rhoffsch42/scop">repo ⇗</a></a></h1>
 <p>A simple engine to render 3D models.</p>
 <img src="https://i.imgur.com/N7qYk4P.png" alt="drawing" height="250" width="350"/>
 <br>
 <br>
-<h1 id="humangl---repo--4"><a class="header" href="#humangl---repo--4"><img src="../assets/cpp/cpp_32x32.png" alt="cpp" /> HumanGL - <a href="https://github.com/rhoffsch42/HumanGL">repo ⇗</a></a></h1>
+<h1 id="humangl---repo--4"><a class="header" href="#humangl---repo--4"><img src="./assets/cpp/cpp_32x32.png" alt="cpp" /> HumanGL - <a href="https://github.com/rhoffsch42/HumanGL">repo ⇗</a></a></h1>
 <p>The aim of this project was to use a hierarchy of matrices to make animations.
 <br>
 <br></p>
-<h1 id="raytracing---repo--4"><a class="header" href="#raytracing---repo--4"><img src="../assets/c/c_32x32.png" alt="c" /> Raytracing - <a href="https://github.com/rhoffsch42/rtv1">repo ⇗</a></a></h1>
+<h1 id="raytracing---repo--4"><a class="header" href="#raytracing---repo--4"><img src="./assets/c/c_32x32.png" alt="c" /> Raytracing - <a href="https://github.com/rhoffsch42/rtv1">repo ⇗</a></a></h1>
 <p>Group project : a 3D engine using raytracing.</p>
 <img src="https://i.imgur.com/fmObdZP.png" alt="drawing" width="650"/>
 <br>
 <br>
-<h1 id="corewar---repo--4"><a class="header" href="#corewar---repo--4"><img src="../assets/c/c_32x32.png" alt="c" /> Corewar - <a href="https://github.com/rhoffsch42/Corewar">repo ⇗</a></a></h1>
+<h1 id="corewar---repo--4"><a class="header" href="#corewar---repo--4"><img src="./assets/c/c_32x32.png" alt="c" /> Corewar - <a href="https://github.com/rhoffsch42/Corewar">repo ⇗</a></a></h1>
 <p>Group project : in this game, computer programs (called &quot;Champions&quot;) compete in a virtual arena for memory supremacy. Champions are written in an Assembly dialect called &quot;Redcode&quot;.</p>
 <img src="https://i.imgur.com/eFNeB86.png" alt="drawing" width="650"/>
 <br>
 <br>
-<h1 id="wolf3d-game---repo--4"><a class="header" href="#wolf3d-game---repo--4"><img src="../assets/c/c_32x32.png" alt="c" /> Wolf3D game - <a href="https://github.com/rhoffsch42/Wolf3D">repo ⇗</a></a></h1>
+<h1 id="wolf3d-game---repo--4"><a class="header" href="#wolf3d-game---repo--4"><img src="./assets/c/c_32x32.png" alt="c" /> Wolf3D game - <a href="https://github.com/rhoffsch42/Wolf3D">repo ⇗</a></a></h1>
 <p>A game like Wolfeinstein3D or Doom, using raycasting.</p>
 <img src="https://i.imgur.com/dFlhCq4.png" alt="drawing" height="250" width="350"/>
 <br>
 <br>
-<h1 id="fractals---repo--4"><a class="header" href="#fractals---repo--4"><img src="../assets/c/c_32x32.png" alt="c" /> Fractals - <a href="https://github.com/rhoffsch42/fractals">repo ⇗</a></a></h1>
+<h1 id="fractals---repo--4"><a class="header" href="#fractals---repo--4"><img src="./assets/c/c_32x32.png" alt="c" /> Fractals - <a href="https://github.com/rhoffsch42/fractals">repo ⇗</a></a></h1>
 <p>The famous Mandelbrot set, Julia set, and other fractals.</p>
 <img src="https://i.imgur.com/A8ubaGK.png" alt="drawing" width="650"/>
 <br>
 <br>
-<h1 id="wireframe---repo--4"><a class="header" href="#wireframe---repo--4"><img src="../assets/c/c_32x32.png" alt="c" /> Wireframe - <a href="https://github.com/rhoffsch42/fdf">repo ⇗</a></a></h1>
+<h1 id="wireframe---repo--4"><a class="header" href="#wireframe---repo--4"><img src="./assets/c/c_32x32.png" alt="c" /> Wireframe - <a href="https://github.com/rhoffsch42/fdf">repo ⇗</a></a></h1>
 <p>Isometric wireframe visualization of a relief. A basic project to introduce the use of a graphic library.</p>
 <img src="https://i.imgur.com/OQ2hABF.png" alt="drawing" width="650"/>
 <br>
@@ -457,36 +488,36 @@ School projects
 </p>
 <h3 id="youtube-playlist--5"><a class="header" href="#youtube-playlist--5"><a href="https://www.youtube.com/watch?v=Oz_VMhNBpak&amp;list=PL_zYbCWaNF7GNl4vMvyzbuaPQw9lTh8wY">Youtube playlist ⇗</a></a></h3>
 <br>
-<h1 id="3d-graphical-engine---repo--5"><a class="header" href="#3d-graphical-engine---repo--5"><img src="../assets/cpp/cpp_32x32.png" alt="cpp" /> 3D graphical engine - <a href="https://github.com/rhoffsch42/scop">repo ⇗</a></a></h1>
+<h1 id="3d-graphical-engine---repo--5"><a class="header" href="#3d-graphical-engine---repo--5"><img src="./assets/cpp/cpp_32x32.png" alt="cpp" /> 3D graphical engine - <a href="https://github.com/rhoffsch42/scop">repo ⇗</a></a></h1>
 <p>A simple engine to render 3D models.</p>
 <img src="https://i.imgur.com/N7qYk4P.png" alt="drawing" height="250" width="350"/>
 <br>
 <br>
-<h1 id="humangl---repo--5"><a class="header" href="#humangl---repo--5"><img src="../assets/cpp/cpp_32x32.png" alt="cpp" /> HumanGL - <a href="https://github.com/rhoffsch42/HumanGL">repo ⇗</a></a></h1>
+<h1 id="humangl---repo--5"><a class="header" href="#humangl---repo--5"><img src="./assets/cpp/cpp_32x32.png" alt="cpp" /> HumanGL - <a href="https://github.com/rhoffsch42/HumanGL">repo ⇗</a></a></h1>
 <p>The aim of this project was to use a hierarchy of matrices to make animations.
 <br>
 <br></p>
-<h1 id="raytracing---repo--5"><a class="header" href="#raytracing---repo--5"><img src="../assets/c/c_32x32.png" alt="c" /> Raytracing - <a href="https://github.com/rhoffsch42/rtv1">repo ⇗</a></a></h1>
+<h1 id="raytracing---repo--5"><a class="header" href="#raytracing---repo--5"><img src="./assets/c/c_32x32.png" alt="c" /> Raytracing - <a href="https://github.com/rhoffsch42/rtv1">repo ⇗</a></a></h1>
 <p>Group project : a 3D engine using raytracing.</p>
 <img src="https://i.imgur.com/fmObdZP.png" alt="drawing" width="650"/>
 <br>
 <br>
-<h1 id="corewar---repo--5"><a class="header" href="#corewar---repo--5"><img src="../assets/c/c_32x32.png" alt="c" /> Corewar - <a href="https://github.com/rhoffsch42/Corewar">repo ⇗</a></a></h1>
+<h1 id="corewar---repo--5"><a class="header" href="#corewar---repo--5"><img src="./assets/c/c_32x32.png" alt="c" /> Corewar - <a href="https://github.com/rhoffsch42/Corewar">repo ⇗</a></a></h1>
 <p>Group project : in this game, computer programs (called &quot;Champions&quot;) compete in a virtual arena for memory supremacy. Champions are written in an Assembly dialect called &quot;Redcode&quot;.</p>
 <img src="https://i.imgur.com/eFNeB86.png" alt="drawing" width="650"/>
 <br>
 <br>
-<h1 id="wolf3d-game---repo--5"><a class="header" href="#wolf3d-game---repo--5"><img src="../assets/c/c_32x32.png" alt="c" /> Wolf3D game - <a href="https://github.com/rhoffsch42/Wolf3D">repo ⇗</a></a></h1>
+<h1 id="wolf3d-game---repo--5"><a class="header" href="#wolf3d-game---repo--5"><img src="./assets/c/c_32x32.png" alt="c" /> Wolf3D game - <a href="https://github.com/rhoffsch42/Wolf3D">repo ⇗</a></a></h1>
 <p>A game like Wolfeinstein3D or Doom, using raycasting.</p>
 <img src="https://i.imgur.com/dFlhCq4.png" alt="drawing" height="250" width="350"/>
 <br>
 <br>
-<h1 id="fractals---repo--5"><a class="header" href="#fractals---repo--5"><img src="../assets/c/c_32x32.png" alt="c" /> Fractals - <a href="https://github.com/rhoffsch42/fractals">repo ⇗</a></a></h1>
+<h1 id="fractals---repo--5"><a class="header" href="#fractals---repo--5"><img src="./assets/c/c_32x32.png" alt="c" /> Fractals - <a href="https://github.com/rhoffsch42/fractals">repo ⇗</a></a></h1>
 <p>The famous Mandelbrot set, Julia set, and other fractals.</p>
 <img src="https://i.imgur.com/A8ubaGK.png" alt="drawing" width="650"/>
 <br>
 <br>
-<h1 id="wireframe---repo--5"><a class="header" href="#wireframe---repo--5"><img src="../assets/c/c_32x32.png" alt="c" /> Wireframe - <a href="https://github.com/rhoffsch42/fdf">repo ⇗</a></a></h1>
+<h1 id="wireframe---repo--5"><a class="header" href="#wireframe---repo--5"><img src="./assets/c/c_32x32.png" alt="c" /> Wireframe - <a href="https://github.com/rhoffsch42/fdf">repo ⇗</a></a></h1>
 <p>Isometric wireframe visualization of a relief. A basic project to introduce the use of a graphic library.</p>
 <img src="https://i.imgur.com/OQ2hABF.png" alt="drawing" width="650"/>
 <br>
@@ -496,36 +527,36 @@ School projects
 </p>
 <h3 id="youtube-playlist--6"><a class="header" href="#youtube-playlist--6"><a href="https://www.youtube.com/watch?v=Oz_VMhNBpak&amp;list=PL_zYbCWaNF7GNl4vMvyzbuaPQw9lTh8wY">Youtube playlist ⇗</a></a></h3>
 <br>
-<h1 id="3d-graphical-engine---repo--6"><a class="header" href="#3d-graphical-engine---repo--6"><img src="../assets/cpp/cpp_32x32.png" alt="cpp" /> 3D graphical engine - <a href="https://github.com/rhoffsch42/scop">repo ⇗</a></a></h1>
+<h1 id="3d-graphical-engine---repo--6"><a class="header" href="#3d-graphical-engine---repo--6"><img src="./assets/cpp/cpp_32x32.png" alt="cpp" /> 3D graphical engine - <a href="https://github.com/rhoffsch42/scop">repo ⇗</a></a></h1>
 <p>A simple engine to render 3D models.</p>
 <img src="https://i.imgur.com/N7qYk4P.png" alt="drawing" height="250" width="350"/>
 <br>
 <br>
-<h1 id="humangl---repo--6"><a class="header" href="#humangl---repo--6"><img src="../assets/cpp/cpp_32x32.png" alt="cpp" /> HumanGL - <a href="https://github.com/rhoffsch42/HumanGL">repo ⇗</a></a></h1>
+<h1 id="humangl---repo--6"><a class="header" href="#humangl---repo--6"><img src="./assets/cpp/cpp_32x32.png" alt="cpp" /> HumanGL - <a href="https://github.com/rhoffsch42/HumanGL">repo ⇗</a></a></h1>
 <p>The aim of this project was to use a hierarchy of matrices to make animations.
 <br>
 <br></p>
-<h1 id="raytracing---repo--6"><a class="header" href="#raytracing---repo--6"><img src="../assets/c/c_32x32.png" alt="c" /> Raytracing - <a href="https://github.com/rhoffsch42/rtv1">repo ⇗</a></a></h1>
+<h1 id="raytracing---repo--6"><a class="header" href="#raytracing---repo--6"><img src="./assets/c/c_32x32.png" alt="c" /> Raytracing - <a href="https://github.com/rhoffsch42/rtv1">repo ⇗</a></a></h1>
 <p>Group project : a 3D engine using raytracing.</p>
 <img src="https://i.imgur.com/fmObdZP.png" alt="drawing" width="650"/>
 <br>
 <br>
-<h1 id="corewar---repo--6"><a class="header" href="#corewar---repo--6"><img src="../assets/c/c_32x32.png" alt="c" /> Corewar - <a href="https://github.com/rhoffsch42/Corewar">repo ⇗</a></a></h1>
+<h1 id="corewar---repo--6"><a class="header" href="#corewar---repo--6"><img src="./assets/c/c_32x32.png" alt="c" /> Corewar - <a href="https://github.com/rhoffsch42/Corewar">repo ⇗</a></a></h1>
 <p>Group project : in this game, computer programs (called &quot;Champions&quot;) compete in a virtual arena for memory supremacy. Champions are written in an Assembly dialect called &quot;Redcode&quot;.</p>
 <img src="https://i.imgur.com/eFNeB86.png" alt="drawing" width="650"/>
 <br>
 <br>
-<h1 id="wolf3d-game---repo--6"><a class="header" href="#wolf3d-game---repo--6"><img src="../assets/c/c_32x32.png" alt="c" /> Wolf3D game - <a href="https://github.com/rhoffsch42/Wolf3D">repo ⇗</a></a></h1>
+<h1 id="wolf3d-game---repo--6"><a class="header" href="#wolf3d-game---repo--6"><img src="./assets/c/c_32x32.png" alt="c" /> Wolf3D game - <a href="https://github.com/rhoffsch42/Wolf3D">repo ⇗</a></a></h1>
 <p>A game like Wolfeinstein3D or Doom, using raycasting.</p>
 <img src="https://i.imgur.com/dFlhCq4.png" alt="drawing" height="250" width="350"/>
 <br>
 <br>
-<h1 id="fractals---repo--6"><a class="header" href="#fractals---repo--6"><img src="../assets/c/c_32x32.png" alt="c" /> Fractals - <a href="https://github.com/rhoffsch42/fractals">repo ⇗</a></a></h1>
+<h1 id="fractals---repo--6"><a class="header" href="#fractals---repo--6"><img src="./assets/c/c_32x32.png" alt="c" /> Fractals - <a href="https://github.com/rhoffsch42/fractals">repo ⇗</a></a></h1>
 <p>The famous Mandelbrot set, Julia set, and other fractals.</p>
 <img src="https://i.imgur.com/A8ubaGK.png" alt="drawing" width="650"/>
 <br>
 <br>
-<h1 id="wireframe---repo--6"><a class="header" href="#wireframe---repo--6"><img src="../assets/c/c_32x32.png" alt="c" /> Wireframe - <a href="https://github.com/rhoffsch42/fdf">repo ⇗</a></a></h1>
+<h1 id="wireframe---repo--6"><a class="header" href="#wireframe---repo--6"><img src="./assets/c/c_32x32.png" alt="c" /> Wireframe - <a href="https://github.com/rhoffsch42/fdf">repo ⇗</a></a></h1>
 <p>Isometric wireframe visualization of a relief. A basic project to introduce the use of a graphic library.</p>
 <img src="https://i.imgur.com/OQ2hABF.png" alt="drawing" width="650"/>
 <br>
@@ -535,36 +566,36 @@ School projects
 </p>
 <h3 id="youtube-playlist--7"><a class="header" href="#youtube-playlist--7"><a href="https://www.youtube.com/watch?v=Oz_VMhNBpak&amp;list=PL_zYbCWaNF7GNl4vMvyzbuaPQw9lTh8wY">Youtube playlist ⇗</a></a></h3>
 <br>
-<h1 id="3d-graphical-engine---repo--7"><a class="header" href="#3d-graphical-engine---repo--7"><img src="../assets/cpp/cpp_32x32.png" alt="cpp" /> 3D graphical engine - <a href="https://github.com/rhoffsch42/scop">repo ⇗</a></a></h1>
+<h1 id="3d-graphical-engine---repo--7"><a class="header" href="#3d-graphical-engine---repo--7"><img src="./assets/cpp/cpp_32x32.png" alt="cpp" /> 3D graphical engine - <a href="https://github.com/rhoffsch42/scop">repo ⇗</a></a></h1>
 <p>A simple engine to render 3D models.</p>
 <img src="https://i.imgur.com/N7qYk4P.png" alt="drawing" height="250" width="350"/>
 <br>
 <br>
-<h1 id="humangl---repo--7"><a class="header" href="#humangl---repo--7"><img src="../assets/cpp/cpp_32x32.png" alt="cpp" /> HumanGL - <a href="https://github.com/rhoffsch42/HumanGL">repo ⇗</a></a></h1>
+<h1 id="humangl---repo--7"><a class="header" href="#humangl---repo--7"><img src="./assets/cpp/cpp_32x32.png" alt="cpp" /> HumanGL - <a href="https://github.com/rhoffsch42/HumanGL">repo ⇗</a></a></h1>
 <p>The aim of this project was to use a hierarchy of matrices to make animations.
 <br>
 <br></p>
-<h1 id="raytracing---repo--7"><a class="header" href="#raytracing---repo--7"><img src="../assets/c/c_32x32.png" alt="c" /> Raytracing - <a href="https://github.com/rhoffsch42/rtv1">repo ⇗</a></a></h1>
+<h1 id="raytracing---repo--7"><a class="header" href="#raytracing---repo--7"><img src="./assets/c/c_32x32.png" alt="c" /> Raytracing - <a href="https://github.com/rhoffsch42/rtv1">repo ⇗</a></a></h1>
 <p>Group project : a 3D engine using raytracing.</p>
 <img src="https://i.imgur.com/fmObdZP.png" alt="drawing" width="650"/>
 <br>
 <br>
-<h1 id="corewar---repo--7"><a class="header" href="#corewar---repo--7"><img src="../assets/c/c_32x32.png" alt="c" /> Corewar - <a href="https://github.com/rhoffsch42/Corewar">repo ⇗</a></a></h1>
+<h1 id="corewar---repo--7"><a class="header" href="#corewar---repo--7"><img src="./assets/c/c_32x32.png" alt="c" /> Corewar - <a href="https://github.com/rhoffsch42/Corewar">repo ⇗</a></a></h1>
 <p>Group project : in this game, computer programs (called &quot;Champions&quot;) compete in a virtual arena for memory supremacy. Champions are written in an Assembly dialect called &quot;Redcode&quot;.</p>
 <img src="https://i.imgur.com/eFNeB86.png" alt="drawing" width="650"/>
 <br>
 <br>
-<h1 id="wolf3d-game---repo--7"><a class="header" href="#wolf3d-game---repo--7"><img src="../assets/c/c_32x32.png" alt="c" /> Wolf3D game - <a href="https://github.com/rhoffsch42/Wolf3D">repo ⇗</a></a></h1>
+<h1 id="wolf3d-game---repo--7"><a class="header" href="#wolf3d-game---repo--7"><img src="./assets/c/c_32x32.png" alt="c" /> Wolf3D game - <a href="https://github.com/rhoffsch42/Wolf3D">repo ⇗</a></a></h1>
 <p>A game like Wolfeinstein3D or Doom, using raycasting.</p>
 <img src="https://i.imgur.com/dFlhCq4.png" alt="drawing" height="250" width="350"/>
 <br>
 <br>
-<h1 id="fractals---repo--7"><a class="header" href="#fractals---repo--7"><img src="../assets/c/c_32x32.png" alt="c" /> Fractals - <a href="https://github.com/rhoffsch42/fractals">repo ⇗</a></a></h1>
+<h1 id="fractals---repo--7"><a class="header" href="#fractals---repo--7"><img src="./assets/c/c_32x32.png" alt="c" /> Fractals - <a href="https://github.com/rhoffsch42/fractals">repo ⇗</a></a></h1>
 <p>The famous Mandelbrot set, Julia set, and other fractals.</p>
 <img src="https://i.imgur.com/A8ubaGK.png" alt="drawing" width="650"/>
 <br>
 <br>
-<h1 id="wireframe---repo--7"><a class="header" href="#wireframe---repo--7"><img src="../assets/c/c_32x32.png" alt="c" /> Wireframe - <a href="https://github.com/rhoffsch42/fdf">repo ⇗</a></a></h1>
+<h1 id="wireframe---repo--7"><a class="header" href="#wireframe---repo--7"><img src="./assets/c/c_32x32.png" alt="c" /> Wireframe - <a href="https://github.com/rhoffsch42/fdf">repo ⇗</a></a></h1>
 <p>Isometric wireframe visualization of a relief. A basic project to introduce the use of a graphic library.</p>
 <img src="https://i.imgur.com/OQ2hABF.png" alt="drawing" width="650"/>
 <br>
@@ -584,6 +615,22 @@ School projects
 
         </div>
 
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
         <script type="text/javascript">
             window.playground_copyable = true;
         </script>
