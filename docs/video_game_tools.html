@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js navy">
+<html lang="en" class="sidebar-visible no-js rust">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
@@ -30,7 +30,7 @@
         <!-- Provide site root to javascript -->
         <script type="text/javascript">
             var path_to_root = "";
-            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "navy";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "rust";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
@@ -56,7 +56,7 @@
             if (theme === null || theme === undefined) { theme = default_theme; }
             var html = document.querySelector('html');
             html.classList.remove('no-js')
-            html.classList.remove('navy')
+            html.classList.remove('rust')
             html.classList.add(theme);
             html.classList.add('js');
         </script>
@@ -75,7 +75,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><li class="part-title">Summary</li><li class="chapter-item expanded "><a href="side_projects.html"><strong aria-hidden="true">1.</strong> Side projects</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="side_projects.html"><strong aria-hidden="true">1.1.</strong> Voxel engine</a></li><li class="chapter-item expanded "><a href="side_projects.html"><strong aria-hidden="true">1.2.</strong> AmongUs Detector</a></li></ol></li><li class="chapter-item expanded "><a href="video_game_tools.html" class="active"><strong aria-hidden="true">2.</strong> Video game tools</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="video_game_tools.html" class="active"><strong aria-hidden="true">2.1.</strong> EVE Online Intel Map</a></li><li class="chapter-item expanded "><a href="video_game_tools.html" class="active"><strong aria-hidden="true">2.2.</strong> Dual Universe in-game scripts</a></li><li class="chapter-item expanded "><a href="video_game_tools.html" class="active"><strong aria-hidden="true">2.3.</strong> Sanctuary community tool</a></li></ol></li><li class="chapter-item expanded "><a href="school_projects.html"><strong aria-hidden="true">3.</strong> Some school projects</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="school_projects.html"><strong aria-hidden="true">3.1.</strong> 3D graphical engine</a></li><li class="chapter-item expanded "><a href="school_projects.html"><strong aria-hidden="true">3.2.</strong> HumanGL</a></li><li class="chapter-item expanded "><a href="school_projects.html"><strong aria-hidden="true">3.3.</strong> Raytracing</a></li><li class="chapter-item expanded "><a href="school_projects.html"><strong aria-hidden="true">3.4.</strong> Corewar</a></li><li class="chapter-item expanded "><a href="school_projects.html"><strong aria-hidden="true">3.5.</strong> Wold3D game</a></li><li class="chapter-item expanded "><a href="school_projects.html"><strong aria-hidden="true">3.6.</strong> Fractals</a></li><li class="chapter-item expanded "><a href="school_projects.html"><strong aria-hidden="true">3.7.</strong> Wireframe</a></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="welcome.html"><strong aria-hidden="true">1.</strong> Welcome</a></li><li class="chapter-item expanded affix "><li class="part-title"></li><li class="spacer"></li><li class="chapter-item expanded "><a href="side_projects.html"><strong aria-hidden="true">2.</strong> Side projects</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="side_projects.html"><strong aria-hidden="true">2.1.</strong> Voxel engine</a></li><li class="chapter-item expanded "><a href="side_projects.html"><strong aria-hidden="true">2.2.</strong> AmongUs Detector</a></li></ol></li><li class="chapter-item expanded "><li class="part-title"></li><li class="spacer"></li><li class="chapter-item expanded "><a href="video_game_tools.html" class="active"><strong aria-hidden="true">3.</strong> Video game tools</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="video_game_tools.html" class="active"><strong aria-hidden="true">3.1.</strong> EVE Online Intel Map</a></li><li class="chapter-item expanded "><a href="video_game_tools.html" class="active"><strong aria-hidden="true">3.2.</strong> Dual Universe in-game scripts</a></li><li class="chapter-item expanded "><a href="video_game_tools.html" class="active"><strong aria-hidden="true">3.3.</strong> Sanctuary community tool</a></li></ol></li><li class="chapter-item expanded "><li class="part-title"></li><li class="spacer"></li><li class="chapter-item expanded "><a href="school_projects.html"><strong aria-hidden="true">4.</strong> Some school projects</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="school_projects.html"><strong aria-hidden="true">4.1.</strong> 3D graphical engine</a></li><li class="chapter-item expanded "><a href="school_projects.html"><strong aria-hidden="true">4.2.</strong> HumanGL</a></li><li class="chapter-item expanded "><a href="school_projects.html"><strong aria-hidden="true">4.3.</strong> Raytracing</a></li><li class="chapter-item expanded "><a href="school_projects.html"><strong aria-hidden="true">4.4.</strong> Corewar</a></li><li class="chapter-item expanded "><a href="school_projects.html"><strong aria-hidden="true">4.5.</strong> Wold3D game</a></li><li class="chapter-item expanded "><a href="school_projects.html"><strong aria-hidden="true">4.6.</strong> Fractals</a></li><li class="chapter-item expanded "><a href="school_projects.html"><strong aria-hidden="true">4.7.</strong> Wireframe</a></li></ol></li><li class="chapter-item expanded "><li class="part-title"></li><li class="spacer"></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -94,9 +94,9 @@
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
                             <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
                         </ul>
                         <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
@@ -140,20 +140,20 @@
                         <p style="text-align:center;font-size:50px;">
 Video game tools
 </p>
-<h1 id="eve-online-intel-map---repo-"><a class="header" href="#eve-online-intel-map---repo-"><img src="../assets/cpp/cpp_32x32.png" alt="cpp" /> <img src="../assets/qt/qt_32x32.png" alt="qt" /> EVE Online Intel Map - <a href="https://github.com/rhoffsch42/EVE_IntelMap">repo ⇗</a></a></h1>
+<h1 id="eve-online-intel-map---repo-"><a class="header" href="#eve-online-intel-map---repo-"><img src="./assets/cpp/cpp_32x32.png" alt="cpp" /> <img src="./assets/qt/qt_x24.png" alt="qt" /> EVE Online Intel Map - <a href="https://github.com/rhoffsch42/EVE_IntelMap">repo ⇗</a></a></h1>
 <p>Application for the game EVE Online, designed to easely track players position across solar systems. Based on player's intel, it alerts (visual + sound) the user when other players are detecting enemis.</p>
 <img src="https://i.imgur.com/tISdKne.png" alt="drawing" width="220"/>
 <img src="https://i.imgur.com/zfscUm0.png" alt="drawing" width="220"/>
 <img src="https://i.imgur.com/zaDnThX.png" alt="drawing" width="220"/>
 <br>
 <br>
-<h1 id="dual-universe-in-game-scripts---repo-"><a class="header" href="#dual-universe-in-game-scripts---repo-"><img src="../assets/lua/lua_32x32.png" alt="lua" /> Dual Universe in-game scripts - <a href="https://github.com/rhoffsch42/DualUniverse-public">repo ⇗</a></a></h1>
+<h1 id="dual-universe-in-game-scripts---repo-"><a class="header" href="#dual-universe-in-game-scripts---repo-"><img src="./assets/lua/lua_32x32.png" alt="lua" /> Dual Universe in-game scripts - <a href="https://github.com/rhoffsch42/DualUniverse-public">repo ⇗</a></a></h1>
 <p>Dual Universe is a MMO game where everything is built by players with voxels, from simple buildings on planets to ships with complexe piloting systems. A lot of in-game elements can be scripted. This is a public repository of my scripts, a lot of these are UI related, especially 3D projections.</p>
 <img src="https://i.imgur.com/EGOk1fm.png" alt="drawing" width="320"/>
 <img src="https://i.imgur.com/1dGe5EG.png" alt="drawing" width="320"/>
 <br>
 <br>
-<h1 id="sanctuary-community-tool---repo-"><a class="header" href="#sanctuary-community-tool---repo-"><img src="../assets/python/python_32x32.png" alt="python" /> <img src="../assets/blender/blender_32x32.png" alt="blender" /> Sanctuary community tool - <a href="https://github.com/rhoffsch42/sanmodel-blender">repo ⇗</a></a></h1>
+<h1 id="sanctuary-community-tool---repo-"><a class="header" href="#sanctuary-community-tool---repo-"><img src="./assets/python/python_32x32.png" alt="python" /> <img src="./assets/blender/blender_32x32.png" alt="blender" /> Sanctuary community tool - <a href="https://github.com/rhoffsch42/sanmodel-blender">repo ⇗</a></a></h1>
 <p>A Blender addon to import/export sanmodel files, the game's model format. Sanctuary is a RTS game still in development, so this is a work in progress.</p>
 <img src="https://i.imgur.com/cnTOvAY.png" alt="drawing" width="320"/>
 <br>
@@ -184,6 +184,22 @@ Video game tools
 
         </div>
 
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
         <script type="text/javascript">
             window.playground_copyable = true;
         </script>
