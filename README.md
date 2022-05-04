@@ -1,1 +1,1 @@
-# [book](https://rhoffsch42.github.io)
+# personnal [book](https://rhoffsch42.github.io) for projects
