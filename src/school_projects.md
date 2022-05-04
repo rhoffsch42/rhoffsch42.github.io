@@ -1,5 +1,5 @@
 <p style="text-align:center;font-size:50px;">
-School projects
+Some school projects
 </p>
 
 ### [Youtube playlist ⇗](https://www.youtube.com/watch?v=Oz_VMhNBpak&list=PL_zYbCWaNF7GNl4vMvyzbuaPQw9lTh8wY)
@@ -53,7 +53,7 @@ The famous Mandelbrot set, Julia set, and other fractals.
 
 # ![c](./assets/c/c_32x32.png) Wireframe - [repo ⇗](https://github.com/rhoffsch42/fdf)
 
- Isometric wireframe visualization of a relief. A basic project to introduce the use of a graphic library.
+ Isometric wireframe visualization of a topography. A basic project to introduce the use of a graphic library.
 
 <img src="https://i.imgur.com/OQ2hABF.png" alt="drawing" width="650"/>
 <br>
