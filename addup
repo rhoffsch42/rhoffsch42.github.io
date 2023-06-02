@@ -1,0 +1,8 @@
+#!/bin/bash
+
+sum=0
+
+while read i; do
+	((sum = sum + i))
+done <src/test11.txt
+echo $sum
