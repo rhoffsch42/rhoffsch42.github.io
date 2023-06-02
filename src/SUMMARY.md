@@ -4,6 +4,7 @@
 # []()
 ---
 - [Side projects](./side_projects.md)
+    - [Unreal Engine game](./side_projects.md)
     - [Voxel engine](./side_projects.md)
     - [AmongUs Detector](./side_projects.md)
 # []()
