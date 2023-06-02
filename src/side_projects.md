@@ -6,7 +6,7 @@ Side projects
 My first Unreal Engine project, currently Blueprint-only. I chose to make a Gradius-like to get my hands on the engine. This is a technical demo, levels are intentionnally short and easy.
 <details>
   <summary>Details</summary>
-  All of this work was done myself, no plug-in were used for the gameplay. Only 3D models, images and audio were imported.
+  All of this work was done myself, no plug-ins were used for the gameplay. Only 3D models, images and audio were imported.
   
   What I learned to use during this project:
   Levels/Scenes, GameInstance and GameMode,  Input modes, Actor and ActorComponents, Projectile Component, Function and Macro Library, SaveGame, Key bindings, Event calls and bindings, collision presets, UI Widgets, UI Animation, Materials, NiagaraSystem, Damage system and more...
