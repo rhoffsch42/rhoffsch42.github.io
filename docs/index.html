@@ -147,6 +147,7 @@
 <p><img src="./assets/lua/lua_64x64.png" alt="lua" />
 <img src="./assets/opengl/opengl_64x64.png" alt="opengl" />
 <img src="./assets/qt/qt_x48.png" alt="qt" />
+<img src="./assets/unreal-engine/unreal-engine_64x64.png" alt="unreal" />
 <img src="./assets/unity/unity_x48.png" alt="unity" />
 <img src="./assets/csharp/csharp_64x64.png" alt="csharp" /></p>
 <p>Currently learning : </p>
@@ -189,22 +190,6 @@
 
         </div>
 
-        <!-- Livereload script (if served using the cli tool) -->
-        <script type="text/javascript">
-            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
-            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
-            const socket = new WebSocket(wsAddress);
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload();
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
         <script type="text/javascript">
             window.playground_copyable = true;
         </script>
