@@ -9,7 +9,7 @@ My first Unreal Engine project, currently Blueprint-only. I chose to make a Grad
   All of this work was done myself, no plug-ins were used for the gameplay. Only 3D models, images and audio were imported.
   
   What I learned to use during this project:
-  Levels/Scenes, GameInstance and GameMode,  Input modes, Actor and ActorComponents, Projectile Component, Function and Macro Library, SaveGame, Key bindings, Event calls and bindings, collision presets, UI Widgets, UI Animation, Materials, NiagaraSystem, Damage system and more...
+  Levels/Scenes, GameInstance and GameMode,  Input modes, Actor and ActorComponents, Projectile Component, Function and Macro Library, SaveGame, Key bindings, Event calls and bindings, Collision presets, UI Widgets, UI Animation, Materials, NiagaraSystem, Damage system and more...
 </details>
 
 [Download (Windows) ⇗](https://drive.google.com/drive/folders/1kNpDA51BWmlVmWSSDw9OQHwH7JFR_UdT?usp=sharing)
@@ -18,11 +18,24 @@ My first Unreal Engine project, currently Blueprint-only. I chose to make a Grad
 <br>
 <br>
 
-# ![cpp](./assets/cpp/cpp_32x32.png) ![opengl](./assets/opengl/opengl_32x32.png) Voxel engine - [repo ⇗](https://github.com/rhoffsch42/Octree-Quadtree-Procedural)
 
-A typical minecraft engine, using octrees and procedural generation. WIP.
+# ![unity](./assets/unity/unity_32x32.png) ![csharp](./assets/csharp/csharp_32x32.png) PIPO The Ghost - GameJam
+Small puzzle game done on Unity during a Ludum Dare in 2019, in a group of 4 friends. I worked on the ghost movements and some level design.
+
+[Presentation ⇗](https://ldjam.com/events/ludum-dare/45/pipo-the-ghost) | 
+[Video ⇗](https://www.youtube.com/watch?v=SF8NL1okIys) | 
+[Download ⇗](https://woody-builder.itch.io/pipo-the-ghost)
+
+<img src="https://img.itch.zone/aW1hZ2UvNDk1NDMxLzI1NjgyMjYucG5n/347x500/BaHBge.png" alt="drawing" width="400"/>
+<br>
+<br>
+
+# ![cpp](./assets/cpp/cpp_32x32.png) ![opengl](./assets/opengl/opengl_32x32.png) Voxel engine prototype - [repo ⇗](https://github.com/rhoffsch42/Octree-Quadtree-Procedural)
+A typical minecraft game using octrees, procedural generation, multithreading. 
 
 [Demo video ⇗](https://www.youtube.com/watch?v=7nj2OTwm5g4)
+
+![voxel](./assets/voxel.gif)
 <br>
 <br>
 
