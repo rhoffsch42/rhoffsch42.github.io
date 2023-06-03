@@ -8,7 +8,7 @@
     Some school projects
 </p>
 
-## Firtst things first, what is 42 ? [website ⇗](https://42.fr/en/homepage/)
+## First things first, what is 42 ? [website ⇗](https://42.fr/en/homepage/)
 | | |
 | ----------- | --- |
 | ![42](./assets/42/42_256x183.png) | <p style="font-style:italic;">❝ 42 is a future-proof computer science training to educate the next generation of software engineers. The 42 program takes a project-based approach to progress and is designed to develop technical and people skills that match the expectations of the labor market. ❞</p> |
