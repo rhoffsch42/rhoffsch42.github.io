@@ -16,7 +16,7 @@
     - [Sanctuary community tool](./video_game_tools.md)
 # []()
 ---
-- [Some school projects](./school_projects.md)
+- [Education at School 42](./42_school.md)
     - [3D graphical engine](./school_projects.md)
     - [HumanGL](./school_projects.md)
     - [Raytracing](./school_projects.md)
