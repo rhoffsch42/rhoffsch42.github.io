@@ -2,6 +2,9 @@
 ---
 
 I'm a software engineer, leaving in France. I've been programming since 2014.
+In this blog you will find some projects about graphics programming, voxels, video games, tools and add-ons for games, and more... I like efficient and performant programing, this is why I'm more focused on C/C++.
+
+---
 
 Main techs :
 
@@ -26,14 +29,14 @@ Currently learning :
 
 Already used :
 
-![blender](./assets/blender/blender_64x64.png)
-![javascript](./assets/javascript/javascript_64x64.png)
-![typescript](./assets/typescript/typescript_64x64.png)
-![html](./assets/html/html_64x64.png)
-![css](./assets/css/css_64x64.png)
-![php](./assets/php/php_64x64.png)
-![swift](./assets/swift/swift_64x64.png)
-![asm](./assets/asm/asm_64x64.png)
+![asm](./assets/asm/asm_32x32.png)
+![blender](./assets/blender/blender_32x32.png)
+![javascript](./assets/javascript/javascript_32x32.png)
+![typescript](./assets/typescript/typescript_32x32.png)
+![html](./assets/html/html_32x32.png)
+![css](./assets/css/css_32x32.png)
+![php](./assets/php/php_32x32.png)
+![swift](./assets/swift/swift_32x32.png)
 
 ---
 

@@ -2,8 +2,8 @@
 Side projects
 </p>
 
-# ![unreal](./assets/unreal-engine/unreal-engine_32x32.png) ![cpp](./assets/unreal-engine/unreal-engine-blueprint_32x32.png) Arcade Game inspired from Gradius
-My first Unreal Engine project, currently Blueprint-only. I chose to make a Gradius-like to get my hands on the engine. This is a technical demo, levels are intentionnally short and easy.
+# ![unreal5](./assets/unreal-engine/unreal-engine_32x32.png) ![blueprint](./assets/unreal-engine/unreal-engine-blueprint_32x32.png) ![cpp](./assets/cpp/cpp_32x32.png) Arcade Game inspired from Gradius
+This is my first Unreal Engine 5 project. I chose to make a Gradius-like to get my hands on the engine. This is a technical demo, levels are intentionnally short and easy.
 <details>
   <summary>Details</summary>
   All of this work was done myself, no plug-ins were used for the gameplay. Only 3D models, images and audio were imported.
