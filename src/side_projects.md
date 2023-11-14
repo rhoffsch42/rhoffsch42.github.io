@@ -2,8 +2,21 @@
 Side projects
 </p>
 
-# ![unreal5](./assets/unreal-engine/unreal-engine_32x32.png) ![blueprint](./assets/unreal-engine/unreal-engine-blueprint_32x32.png) ![cpp](./assets/cpp/cpp_32x32.png) Arcade Game inspired from Gradius
-This is my first Unreal Engine 5 project. I chose to make a Gradius-like to get my hands on the engine. This is a technical demo, levels are intentionnally short and easy.
+# ![unreal5](./assets/unreal-engine/unreal-engine_32x32.png) ![cpp](./assets/cpp/cpp_32x32.png) The Fires of a Thousand Suns [repo ⇗](https://github.com/rhoffsch42/Fires-Thousand-Suns)
+My second Unreal Engine 5 project, using C++ this time. This is a replica of a boss fight from the game Path of Exile. This project has been [remarkably well received by the community ⇗](https://www.reddit.com/r/pathofexile/comments/17n1mes/the_fires_of_a_thousand_suns_training_game_for/) and is now a valuable asset for players, as it allows them to train this fight whenever they want. Normally, a player has to play several hours to have a "ticket" to the boss fight.
+<details>
+  <summary>Details</summary>
+  The aim was to learn how to use Unreal's C++ ecosystem. Various game system were built to be solid bases for a typical RPG game. Health and damage, abilities, cooldown, buffs, statistics, etc... 
+</details>
+
+[Download (Windows) ⇗](https://github.com/rhoffsch42/Fires-Thousand-Suns/releases)
+
+![cpp](./assets/fts-present-gif-640x360x256.gif) 
+<br>
+<br>
+
+# ![unreal5](./assets/unreal-engine/unreal-engine_32x32.png) ![blueprint](./assets/unreal-engine/unreal-engine-blueprint_32x32.png) Arcade Game inspired from Gradius
+This is my first Unreal Engine 5 project, blueprint only. I chose to make a Gradius-like to get my hands on the engine. This is a technical demo, levels are intentionally short and easy.
 <details>
   <summary>Details</summary>
   All of this work was done myself, no plug-ins were used for the gameplay. Only 3D models, images and audio were imported.
