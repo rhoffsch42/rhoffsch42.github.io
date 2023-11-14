@@ -4,8 +4,8 @@
 # []()
 ---
 - [Side projects](./side_projects.md)
-    - [Unreal Engine RPG game](./side_projects.md)
-    - [Unreal Engine arcade game](./side_projects.md)
+    - [The Fires of a Thousand Suns](./side_projects.md)
+    - [Unreal Engine - Arcade game](./side_projects.md)
     - [PIPO The Ghost - Puzzle game](./side_projects.md)
     - [Voxel engine](./side_projects.md)
     - [AmongUs Detector](./side_projects.md)
