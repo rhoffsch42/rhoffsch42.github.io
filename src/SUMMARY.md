@@ -4,6 +4,7 @@
 # []()
 ---
 - [Side projects](./side_projects.md)
+    - [Unreal Engine RPG game](./side_projects.md)
     - [Unreal Engine arcade game](./side_projects.md)
     - [PIPO The Ghost - Puzzle game](./side_projects.md)
     - [Voxel engine](./side_projects.md)
