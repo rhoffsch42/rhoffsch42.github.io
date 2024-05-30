@@ -1,8 +1,8 @@
 # Welcome
 ---
 
-I'm a software engineer, leaving in France. I've been programming since 2014.
-In this blog you will find some projects about graphics programming, voxels, video games, tools and add-ons for games, and more... I like efficient and performant programing, this is why I'm more focused on C/C++.
+I'm a software engineer, living in France. I've been programming since 2014.
+In this blog you will find some projects about graphics programming, voxels, video games, tools and add-ons for games, and more...
 
 ---
 
