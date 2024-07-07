@@ -48,7 +48,7 @@ A typical minecraft game using octrees, procedural generation, multithreading.
 
 [Demo video ⇗](https://www.youtube.com/watch?v=7nj2OTwm5g4)
 
-![voxel](./assets/voxel.gif)
+![voxel](./assets/voxel-v1.gif)
 <br>
 <br>
 

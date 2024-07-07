@@ -1,0 +1,13 @@
+[book]
+authors = ["rhoffsch42"]
+language = "en"
+multilingual = false
+src = "src"
+title = "github.com/rhoffsch42"
+
+[output.html]
+theme = "my-theme"
+default-theme = "rust"
+preferred-dark-theme = "navy"
+git-repository-url = "https://github.com/rhoffsch42"
+git-repository-icon = "fa-github"
