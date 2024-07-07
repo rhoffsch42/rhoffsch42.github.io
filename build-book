@@ -1,0 +1,4 @@
+#!/bin/bash
+#edit .md files in src/
+./mdbook.exe build
+cp -r book/* docs/

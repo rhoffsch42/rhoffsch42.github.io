@@ -46,7 +46,7 @@ Small puzzle game done on Unity during a Ludum Dare in 2019, in a group of 4 fri
 # ![cpp](./assets/cpp/cpp_32x32.png) ![opengl](./assets/opengl/opengl_32x32.png) Voxel engine prototype - [repo ⇗](https://github.com/rhoffsch42/Octree-Quadtree-Procedural)
 A typical minecraft game using octrees, procedural generation, multithreading. 
 
-[Demo video ⇗](https://www.youtube.com/watch?v=7nj2OTwm5g4)
+[Demo video ⇗](https://www.youtube.com/watch?v=NfkLTqcplD0)
 
 ![voxel](./assets/voxel-v1.gif)
 <br>
