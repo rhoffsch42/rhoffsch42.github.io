@@ -5,7 +5,7 @@
 ## What is 42 ? [website ⇗](https://42.fr/en/homepage/)
 | | |
 | ----------- | --- |
-| ![42](./assets/42/42_256x183.png) | <p style="font-style:italic;">❝ 42 is a future-proof computer science training to educate the next generation of software engineers. The 42 program takes a project-based approach to progress and is designed to develop technical and people skills that match the expectations of the labor market. ❞</p> |
+|  | <p style="font-style:italic;">❝ 42 is a future-proof computer science training to educate the next generation of software engineers. The 42 program takes a project-based approach to progress and is designed to develop technical and people skills that match the expectations of the labor market. ❞</p> |
 <br>
 
 ## My feedback after doing this school :
@@ -37,12 +37,12 @@ En plus de cette capacité à apprendre par nous-même, on a appris a gérer not
 travailler avec des deadlines, ainsi que de travailler sur un projet avec des collègues (répartition des
 taches, versionning via github, etc).
 </p><p>
-Donc même si on ne connais pas une technologie, ce n'est pas un problème car on peut s'adapter très vite,
-on a une très bonne autonomie. De plus 100% de notre temps de travail est dédié à la programmation ou
-tout autre connaissance qui nous aiderait sur nos projets, il n'y a pas de matières générales imposées.
-Au début du cursus, le langage C est imposé pour avoir une approche bas niveau de la programmation et
+Donc même si on ne connait pas une technologie, ce n'est pas un problème car on peut s'adapter très vite,
+on a une très bonne autonomie. De plus, 100% de notre temps de travail est dédié à la programmation ou
+toute autre connaissance qui nous aiderait sur nos projets, il n'y a pas de matières générales imposées.
+Au début du cursus, le langage C est exigé pour avoir une approche bas niveau de la programmation et
 une connaissance approfondie sur l'utilisation des ressources de la machine, quelques projets en
-assembleur sont aussi proposés. Globalement, on développe une sensibilité sur les langages/outils et leur
+assembleur sont aussi proposés. Globalement, on développe une sensibilité sur les langages/outils et leurs
 implications avec la machine pour sélectionner et utiliser les plus adaptés à notre projet.
 Au cours de leur cursus, les étudiants sont rapidement mis face à des projets de plus en plus complexes et
 spécialisés. Bien sûr, la progression de chacun varie puisque notre rythme de travail est libre et propre à
