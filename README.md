@@ -1,1 +1,1 @@
-# personnal [book](https://rhoffsch42.github.io) for projects
+# Public [book](https://rhoffsch42.github.io) of my projects.
