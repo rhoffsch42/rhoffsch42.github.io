@@ -3,7 +3,7 @@ Video game tools
 </p>
 
 # ![cpp](./assets/cpp/cpp_32x32.png) ![qt](./assets/qt/qt_x24.png) EVE Online Intel Map - [repo ⇗](https://github.com/rhoffsch42/EVE_IntelMap)
-Application for the game EVE Online, designed to easely track players position across more than 5000 solar systems. Based on player intels, it alerts (visual + sound) the user when other players are detecting enemis.
+Application for the game EVE Online, designed to easily track players position across more than 5000 solar systems. Based on player intel, it alerts (visual + sound) the user when other players are detecting enemies.
 
 <img src="https://i.imgur.com/tISdKne.png" alt="drawing" width="220"/>
 <img src="https://i.imgur.com/zfscUm0.png" alt="drawing" width="220"/>
